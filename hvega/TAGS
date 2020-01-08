@@ -1,0 +1,2994 @@
+
+./tools/PlayTutorial.hs,215
+module Main Main42,43
+import import51,52
+vl1 vl164,65
+vl1 vl165,66
+vl vl85,86
+vl vl86,87
+run run136,137
+run run137,138
+usage usage149,150
+usage usage150,151
+main main156,157
+main main157,158
+
+./Setup.hs,15
+main main1,2
+
+./tests/ConfigTests.hs,590
+module ConfigTests ConfigTests13,14
+testSpecs testSpecs21,22
+testSpecs testSpecs22,23
+singleVis singleVis31,32
+singleVis singleVis32,33
+compositeVis compositeVis48,49
+compositeVis compositeVis49,50
+vbTest vbTest95,96
+vbTest vbTest96,97
+defaultCfg defaultCfg179,180
+defaultCfg defaultCfg180,181
+darkCfg darkCfg184,185
+darkCfg darkCfg185,186
+markCfg1 markCfg1194,195
+markCfg1 markCfg1195,196
+markCfg2 markCfg2201,202
+markCfg2 markCfg2202,203
+paddingCfg paddingCfg211,212
+paddingCfg paddingCfg212,213
+axisCfg1 axisCfg1219,220
+axisCfg1 axisCfg1220,221
+
+./tests/TimeTests.hs,1604
+module TimeTests TimeTests6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+timeByUnit timeByUnit33,34
+timeByUnit timeByUnit34,35
+timeYear timeYear49,50
+timeYear timeYear50,51
+timeQuarter timeQuarter53,54
+timeQuarter timeQuarter54,55
+timeQuarterMonth timeQuarterMonth57,58
+timeQuarterMonth timeQuarterMonth58,59
+timeMonth timeMonth61,62
+timeMonth timeMonth62,63
+timeMonthDate timeMonthDate65,66
+timeMonthDate timeMonthDate66,67
+timeDate timeDate69,70
+timeDate timeDate70,71
+timeYearMonthDateHours timeYearMonthDateHours73,74
+timeYearMonthDateHours timeYearMonthDateHours74,75
+timeYearMonthDateHoursMinutes timeYearMonthDateHoursMinutes77,78
+timeYearMonthDateHoursMinutes timeYearMonthDateHoursMinutes78,79
+timeYearMonthDateHoursMinutesSeconds timeYearMonthDateHoursMinutesSeconds81,82
+timeYearMonthDateHoursMinutesSeconds timeYearMonthDateHoursMinutesSeconds82,83
+timeDay timeDay86,87
+timeDay timeDay87,88
+timeHours timeHours90,91
+timeHours timeHours91,92
+timeHoursMinutes timeHoursMinutes94,95
+timeHoursMinutes timeHoursMinutes95,96
+timeHoursMinutesSeconds timeHoursMinutesSeconds98,99
+timeHoursMinutesSeconds timeHoursMinutesSeconds99,100
+timeMinutes timeMinutes102,103
+timeMinutes timeMinutes103,104
+timeMinutesSeconds timeMinutesSeconds106,107
+timeMinutesSeconds timeMinutesSeconds107,108
+data DateDate114,115
+    = LocalLocal115,116
+    | UTCUTC116,117
+parseTime parseTime119,120
+parseTime parseTime120,121
+localTime localTime162,163
+localTime localTime163,164
+utcTime utcTime166,167
+utcTime utcTime167,168
+
+./tests/NullTests.hs,546
+module NullTests NullTests6,7
+testSpecs testSpecs13,14
+testSpecs testSpecs14,15
+axis1 axis126,27
+axis1 axis127,28
+scaleEncode scaleEncode44,45
+scaleEncode scaleEncode45,46
+scale0 scale057,58
+scale0 scale058,59
+scale1 scale170,71
+scale1 scale171,72
+scale2 scale283,84
+scale2 scale284,85
+scale3 scale396,97
+scale3 scale397,98
+scale4 scale4109,110
+scale4 scale4110,111
+scale5 scale5122,123
+scale5 scale5123,124
+filter1 filter1135,136
+filter1 filter1136,137
+filter2 filter2161,162
+filter2 filter2162,163
+
+./tests/PositionTests.hs,1226
+module PositionTests PositionTests6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+pOrdinal, pQuant pQuant30,31
+pOrdinal,pOrdinal30,31
+pOrdinal pOrdinal31,32
+pQuant pQuant32,33
+pName pName34,35
+pName pName35,36
+bar bar37,38
+bar bar38,39
+emptyData, someData someData41,42
+emptyData,emptyData41,42
+emptyData emptyData42,43
+someData someData46,47
+position1 position153,54
+position1 position154,55
+position2 position258,59
+position2 position259,60
+position3 position364,65
+position3 position365,66
+position4 position470,71
+position4 position471,72
+position5 position576,77
+position5 position577,78
+position6 position682,83
+position6 position683,84
+position7 position793,94
+position7 position794,95
+barAlign barAlign104,105
+barAlign barAlign105,106
+position8, position9, position10, position11, position12 position12119,120
+position8, position9, position10, position11,position11119,120
+position8, position9, position10,position10119,120
+position8, position9,position9119,120
+position8,position8119,120
+position8 position8120,121
+position9 position9121,122
+position10 position10122,123
+position11 position11123,124
+position12 position12124,125
+
+./tests/Gallery/Layer.hs,429
+module Gallery.Layer Gallery.Layer6,7
+import import14,15
+testSpecs testSpecs16,17
+testSpecs testSpecs17,18
+layer1 layer126,27
+layer1 layer127,28
+layer2 layer275,76
+layer2 layer276,77
+layer3 layer3122,123
+layer3 layer3123,124
+layer4 layer4209,210
+layer4 layer4210,211
+layer5 layer5245,246
+layer5 layer5246,247
+layer6 layer6293,294
+layer6 layer6294,295
+layer7 layer7395,396
+layer7 layer7396,397
+
+./tests/Gallery/Bar.hs,672
+module Gallery.Bar Gallery.Bar6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+bar1 bar132,33
+bar1 bar133,34
+bar2 bar250,51
+bar2 bar251,52
+bar3 bar369,70
+bar3 bar370,71
+bar4 bar492,93
+bar4 bar493,94
+bar5 bar5125,126
+bar5 bar5126,127
+bar6 bar6159,160
+bar6 bar6160,161
+bar7 bar7179,180
+bar7 bar7180,181
+bar8 bar8205,206
+bar8 bar8206,207
+bar9 bar9226,227
+bar9 bar9227,228
+bar10 bar10246,247
+bar10 bar10247,248
+bar11 bar11273,274
+bar11 bar11274,275
+bar12 bar12311,312
+bar12 bar12312,313
+toRows toRows339,340
+toRows toRows340,341
+bar13 bar13357,358
+bar13 bar13358,359
+bar14 bar14418,419
+bar14 bar14419,420
+
+./tests/Gallery/Label.hs,404
+module Gallery.Label Gallery.Label6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+label1 label122,23
+label1 label123,24
+label2 label250,51
+label2 label251,52
+label3 label390,91
+label3 label391,92
+label4 label4168,169
+label4 label4169,170
+label5 label5231,232
+label5 label5232,233
+label6 label6261,262
+label6 label6262,263
+label7 label7291,292
+label7 label7292,293
+
+./tests/Gallery/Scatter.hs,684
+module Gallery.Scatter Gallery.Scatter6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+scatter1 scatter127,28
+scatter1 scatter128,29
+scatter2 scatter246,47
+scatter2 scatter247,48
+scatter3 scatter364,65
+scatter3 scatter365,66
+scatter4 scatter483,84
+scatter4 scatter484,85
+scatter5 scatter5104,105
+scatter5 scatter5105,106
+scatter6 scatter6124,125
+scatter6 scatter6125,126
+scatter7 scatter7144,145
+scatter7 scatter7145,146
+scatter8 scatter8176,177
+scatter8 scatter8177,178
+scatter9 scatter9195,196
+scatter9 scatter9196,197
+scatter10 scatter10222,223
+scatter10 scatter10223,224
+scatter11 scatter11255,256
+scatter11 scatter11256,257
+
+./tests/Gallery/Repeat.hs,334
+module Gallery.Repeat Gallery.Repeat6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+repeat1 repeat121,22
+repeat1 repeat122,23
+repeat2 repeat258,59
+repeat2 repeat259,60
+repeat3 repeat393,94
+repeat3 repeat394,95
+repeat4 repeat4119,120
+repeat4 repeat4120,121
+repeat5 repeat5170,171
+repeat5 repeat5171,172
+
+./tests/Gallery/Dist.hs,290
+module Gallery.Dist Gallery.Dist6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+dist1 dist123,24
+dist1 dist124,25
+dist2 dist242,43
+dist2 dist243,44
+dist3 dist367,68
+dist3 dist368,69
+dist4 dist4116,117
+dist4 dist4117,118
+dist5 dist5179,180
+dist5 dist5180,181
+
+./tests/Gallery/Area.hs,370
+module Gallery.Area Gallery.Area6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+area1 area122,23
+area1 area123,24
+area2 area243,44
+area2 area244,45
+area3 area366,67
+area3 area367,68
+area4 area486,87
+area4 area487,88
+area5 area5108,109
+area5 area5109,110
+area6 area6130,131
+area6 area6131,132
+area7 area7170,171
+area7 area7171,172
+
+./tests/Gallery/Table.hs,312
+module Gallery.Table Gallery.Table6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+table1 table123,24
+table1 table124,25
+table2 table243,44
+table2 table244,45
+table3 table370,71
+table3 table371,72
+table4 table4112,113
+table4 table4113,114
+table5 table5132,133
+table5 table5133,134
+
+./tests/Gallery/Facet.hs,400
+module Gallery.Facet Gallery.Facet6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+facet1 facet125,26
+facet1 facet126,27
+facet2 facet249,50
+facet2 facet250,51
+facet3 facet370,71
+facet3 facet371,72
+facet4 facet490,91
+facet4 facet491,92
+facet5 facet5110,111
+facet5 facet5111,112
+facet6 facet6126,127
+facet6 facet6127,128
+facet7 facet7165,166
+facet7 facet7166,167
+
+./tests/Gallery/Interaction.hs,1413
+module Gallery.Interaction Gallery.Interaction6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+pQuant pQuant32,33
+pQuant pQuant33,34
+interaction1 interaction136,37
+interaction1 interaction137,38
+interaction2 interaction279,80
+interaction2 interaction280,81
+interaction3 interaction3106,107
+interaction3 interaction3107,108
+interaction4 interaction4134,135
+interaction4 interaction4135,136
+interaction5 interaction5166,167
+interaction5 interaction5167,168
+interaction6 interaction6194,195
+interaction6 interaction6195,196
+interaction7 interaction7218,219
+interaction7 interaction7219,220
+interaction8 interaction8277,278
+interaction8 interaction8278,279
+interaction9 interaction9320,321
+interaction9 interaction9321,322
+interaction10 interaction10386,387
+interaction10 interaction10387,388
+initInterval initInterval446,447
+initInterval initInterval447,448
+xInit, yInit yInit471,472
+xInit,xInit471,472
+xInit xInit472,473
+yInit yInit473,474
+interaction11a, interaction11b, interaction11c, interaction11d interaction11d478,479
+interaction11a, interaction11b, interaction11c,interaction11c478,479
+interaction11a, interaction11b,interaction11b478,479
+interaction11a,interaction11a478,479
+interaction11a interaction11a479,480
+interaction11b interaction11b480,481
+interaction11c interaction11c481,482
+interaction11d interaction11d482,483
+
+./tests/Gallery/Error.hs,270
+module Gallery.Error Gallery.Error6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+error1 error122,23
+error1 error123,24
+error2 error261,62
+error2 error262,63
+error3 error3106,107
+error3 error3107,108
+error4 error4151,152
+error4 error4152,153
+
+./tests/Gallery/Advanced.hs,610
+module Gallery.Advanced Gallery.Advanced6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+advanced1 advanced125,26
+advanced1 advanced126,27
+advanced2 advanced252,53
+advanced2 advanced253,54
+advanced3 advanced387,88
+advanced3 advanced388,89
+advanced4 advanced4125,126
+advanced4 advanced4126,127
+advanced5 advanced5160,161
+advanced5 advanced5161,162
+advanced6 advanced6202,203
+advanced6 advanced6203,204
+advanced7 advanced7319,320
+advanced7 advanced7320,321
+advanced8 advanced8343,344
+advanced8 advanced8344,345
+advanced9 advanced9429,430
+advanced9 advanced9430,431
+
+./tests/Gallery/Geo.hs,450
+module Gallery.Geo Gallery.Geo6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+cfg cfg29,30
+cfg cfg30,31
+geo1 geo135,36
+geo1 geo136,37
+geo2 geo259,60
+geo2 geo260,61
+geo3 geo382,83
+geo3 geo383,84
+geo4 geo4119,120
+geo4 geo4120,121
+geo5 geo5178,179
+geo5 geo5179,180
+geo6 geo6206,207
+geo6 geo6207,208
+geo7 geo7242,243
+geo7 geo7243,244
+geo8 geo8299,300
+geo8 geo8300,301
+geo9 geo9321,322
+geo9 geo9322,323
+
+./tests/Gallery/Multi.hs,408
+module Gallery.Multi Gallery.Multi6,7
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+multi1 multi123,24
+multi1 multi124,25
+multi2 multi264,65
+multi2 multi265,66
+multi3 multi3111,112
+multi3 multi3112,113
+multi4 multi4162,163
+multi4 multi4163,164
+multi5 multi5227,228
+multi5 multi5228,229
+multi6 multi6311,312
+multi6 multi6312,313
+multi7 multi7383,384
+multi7 multi7384,385
+
+./tests/Gallery/Line.hs,592
+module Gallery.Line Gallery.Line6,7
+testSpecs testSpecs13,14
+testSpecs testSpecs14,15
+line1 line129,30
+line1 line130,31
+line2 line252,53
+line2 line253,54
+line3 line375,76
+line3 line376,77
+line4 line495,96
+line4 line496,97
+line5 line5115,116
+line5 line5116,117
+line6 line6138,139
+line6 line6139,140
+line7 line7161,162
+line7 line7162,163
+line8 line8181,182
+line8 line8182,183
+line9 line9202,203
+line9 line9203,204
+line10 line10226,227
+line10 line10227,228
+line11 line11304,305
+line11 line11305,306
+line12 line12339,340
+line12 line12340,341
+
+./tests/ProjectionTests.hs,468
+module ProjectionTests ProjectionTests5,6
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+worldMapTemplate worldMapTemplate35,36
+worldMapTemplate worldMapTemplate36,37
+standardProjs standardProjs51,52
+standardProjs standardProjs52,53
+d3Projections d3Projections69,70
+d3Projections d3Projections70,71
+configExample configExample82,83
+configExample configExample83,84
+reflectExample reflectExample116,117
+reflectExample reflectExample117,118
+
+./tests/HyperlinkTests.hs,269
+module HyperlinkTests HyperlinkTests5,6
+testSpecs testSpecs9,10
+testSpecs testSpecs10,11
+hyperlink1 hyperlink115,16
+hyperlink1 hyperlink116,17
+hyperlink2 hyperlink246,47
+hyperlink2 hyperlink247,48
+hyperlink3 hyperlink360,61
+hyperlink3 hyperlink361,62
+
+./tests/TooltipTests.hs,191
+module TooltipTests TooltipTests5,6
+testSpecs testSpecs9,10
+testSpecs testSpecs10,11
+tooltip1 tooltip114,15
+tooltip1 tooltip115,16
+tooltip2 tooltip230,31
+tooltip2 tooltip231,32
+
+./tests/FillStrokeTests.hs,762
+module FillStrokeTests FillStrokeTests9,10
+testSpecs testSpecs15,16
+testSpecs testSpecs16,17
+encChart encChart30,31
+encChart encChart31,32
+defChart defChart52,53
+defChart defChart53,54
+fill1, fill2, fill3 fill355,56
+fill1, fill2,fill255,56
+fill1,fill155,56
+fill1 fill156,57
+fill2 fill257,58
+fill3 fill358,59
+stroke1, stroke2, stroke3 stroke360,61
+stroke1, stroke2,stroke260,61
+stroke1,stroke160,61
+stroke1 stroke161,62
+stroke2 stroke262,63
+stroke3 stroke363,64
+combined1, combined2, combined3 combined365,66
+combined1, combined2,combined265,66
+combined1,combined165,66
+combined1 combined166,67
+combined2 combined267,68
+combined3 combined368,69
+geo1 geo170,71
+geo1 geo171,72
+geo2 geo286,87
+geo2 geo287,88
+
+./tests/TextFormatTests.hs,222
+module TextFormatTests TextFormatTests6,7
+testSpecs testSpecs14,15
+testSpecs testSpecs15,16
+textFormat1 textFormat119,20
+textFormat1 textFormat120,21
+textFormat2 textFormat260,61
+textFormat2 textFormat261,62
+
+./tests/CompositeTests.hs,658
+module CompositeTests CompositeTests6,7
+testSpecs testSpecs17,18
+testSpecs testSpecs18,19
+bPlot bPlot28,29
+bPlot bPlot29,30
+boxplot1 boxplot141,42
+boxplot1 boxplot142,43
+boxplot2 boxplot244,45
+boxplot2 boxplot245,46
+boxplot3 boxplot347,48
+boxplot3 boxplot348,49
+eBand eBand74,75
+eBand eBand75,76
+errorband1 errorband1133,134
+errorband1 errorband1134,135
+errorband2 errorband2138,139
+errorband2 errorband2139,140
+eBar eBar143,144
+eBar eBar144,145
+errorbar1 errorbar1166,167
+errorbar1 errorbar1167,168
+errorbar2 errorbar2171,172
+errorbar2 errorbar2172,173
+errorbar3 errorbar3176,177
+errorbar3 errorbar3177,178
+
+./tests/DataTests.hs,2433
+module DataTests DataTests5,6
+import import10,11
+testSpecs testSpecs16,17
+testSpecs testSpecs17,18
+pOrdinal, pQuant pQuant59,60
+pOrdinal,pOrdinal59,60
+pOrdinal pOrdinal60,61
+pQuant pQuant61,62
+pName pName63,64
+pName pName64,65
+showData showData67,68
+showData showData68,69
+data1 data177,78
+data1 data178,79
+data2 data288,89
+data2 data289,90
+json json100,101
+json json101,102
+data3 data3110,111
+data3 data3111,112
+data4 data4114,115
+data4 data4115,116
+data5 data5119,120
+data5 data5120,121
+data6 data6124,125
+data6 data6125,126
+data7 data7129,130
+data7 data7130,131
+dataSource dataSource133,134
+dataSource dataSource134,135
+data8 data8164,165
+data8 data8165,166
+data9 data9168,169
+data9 data9169,170
+data10 data10172,173
+data10 data10173,174
+namedData1, namedData2, namedData3 namedData3196,197
+namedData1, namedData2,namedData2196,197
+namedData1,namedData1196,197
+namedData1 namedData1197,198
+namedData2 namedData2212,213
+namedData3 namedData3224,225
+geodata1 geodata1234,235
+geodata1 geodata1235,236
+geodata2 geodata2245,246
+geodata2 geodata2246,247
+flatten1 flatten1264,265
+flatten1 flatten1265,266
+fold1 fold1294,295
+fold1 fold1295,296
+imputeData imputeData317,318
+imputeData imputeData318,319
+impute1, impute2, impute3, impute4, impute5, impute6, impute7, impute8 impute8325,326
+impute1, impute2, impute3, impute4, impute5, impute6, impute7,impute7325,326
+impute1, impute2, impute3, impute4, impute5, impute6,impute6325,326
+impute1, impute2, impute3, impute4, impute5,impute5325,326
+impute1, impute2, impute3, impute4,impute4325,326
+impute1, impute2, impute3,impute3325,326
+impute1, impute2,impute2325,326
+impute1,impute1325,326
+impute1 impute1327,328
+impute2 impute2342,343
+impute3 impute3357,358
+impute4 impute4372,373
+impute5 impute5383,384
+impute6 impute6394,395
+impute7 impute7405,406
+impute8 impute8417,418
+sample1 sample1429,430
+sample1 sample1430,431
+bin1 bin1453,454
+bin1 bin1454,455
+bin2 bin2473,474
+bin2 bin2474,475
+bin3 bin3488,489
+bin3 bin3489,490
+sequence1 sequence1503,504
+sequence1 sequence1504,505
+sequence2 sequence2521,522
+sequence2 sequence2522,523
+filter1 filter1539,540
+filter1 filter1540,541
+filter2 filter2559,560
+filter2 filter2560,561
+annotate1 annotate1586,587
+annotate1 annotate1587,588
+null1 null1609,610
+null1 null1610,611
+
+./tests/GeoTests.hs,1582
+module GeoTests GeoTests6,7
+testSpecs testSpecs19,20
+testSpecs testSpecs20,21
+defaultSize1 defaultSize153,54
+defaultSize1 defaultSize154,55
+defaultSize2 defaultSize264,65
+defaultSize2 defaultSize265,66
+choropleth1 choropleth176,77
+choropleth1 choropleth177,78
+choropleth2 choropleth288,89
+choropleth2 choropleth289,90
+tubeLines1 tubeLines1124,125
+tubeLines1 tubeLines1125,126
+tubeLines2 tubeLines2135,136
+tubeLines2 tubeLines2136,137
+tubeLines3 tubeLines3156,157
+tubeLines3 tubeLines3157,158
+boroughColors boroughColors205,206
+boroughColors boroughColors206,207
+tubeLineColors tubeLineColors244,245
+tubeLineColors tubeLineColors245,246
+sphere1 sphere1262,263
+sphere1 sphere1263,264
+sphere2 sphere2275,276
+sphere2 sphere2276,277
+graticule1 graticule1294,295
+graticule1 graticule1295,296
+graticule2 graticule2309,310
+graticule2 graticule2310,311
+graticule3 graticule3329,330
+graticule3 graticule3330,331
+graticule4 graticule4351,352
+graticule4 graticule4352,353
+scale1 scale1368,369
+scale1 scale1369,370
+translate1 translate1390,391
+translate1 translate1391,392
+mapComp1 mapComp1412,413
+mapComp1 mapComp1413,414
+mapComp2 mapComp2427,428
+mapComp2 mapComp2428,429
+mapComp3 mapComp3452,453
+mapComp3 mapComp3453,454
+mapComp4 mapComp4483,484
+mapComp4 mapComp4484,485
+dotMap1 dotMap1523,524
+dotMap1 dotMap1524,525
+scribbleMap1 scribbleMap1545,546
+scribbleMap1 scribbleMap1546,547
+scribbleMap2 scribbleMap2582,583
+scribbleMap2 scribbleMap2583,584
+map1d map1d620,621
+map1d map1d621,622
+
+./tests/InteractionTests.hs,928
+module InteractionTests InteractionTests5,6
+testSpecs testSpecs12,13
+testSpecs testSpecs13,14
+crimeData crimeData24,25
+crimeData crimeData25,26
+cScale cScale28,29
+cScale cScale29,30
+month, crimes crimes40,41
+month,month40,41
+month month41,42
+crimes crimes42,43
+enc, encHighlight encHighlight44,45
+enc,enc44,45
+enc enc45,46
+encHighlight encHighlight52,53
+interaction1 interaction167,68
+interaction1 interaction168,69
+interaction2 interaction276,77
+interaction2 interaction277,78
+interaction3 interaction385,86
+interaction3 interaction386,87
+interaction4 interaction495,96
+interaction4 interaction496,97
+interaction5 interaction5105,106
+interaction5 interaction5106,107
+interaction6 interaction6115,116
+interaction6 interaction6116,117
+interaction7 interaction7125,126
+interaction7 interaction7126,127
+interaction8 interaction8151,152
+interaction8 interaction8152,153
+
+./tests/ColorTests.hs,1719
+module ColorTests ColorTests13,14
+testSpecs testSpecs21,22
+testSpecs testSpecs22,23
+chart chart53,54
+chart chart54,55
+defContinuous defContinuous75,76
+defContinuous defContinuous76,77
+defOrdinal defOrdinal81,82
+defOrdinal defOrdinal82,83
+defNominal defNominal87,88
+defNominal defNominal88,89
+namedContinuous1 namedContinuous193,94
+namedContinuous1 namedContinuous194,95
+namedContinuous2 namedContinuous299,100
+namedContinuous2 namedContinuous2100,101
+namedContinuous3 namedContinuous3105,106
+namedContinuous3 namedContinuous3106,107
+namedContinuous4 namedContinuous4115,116
+namedContinuous4 namedContinuous4116,117
+customContinuous customContinuous125,126
+customContinuous customContinuous126,127
+customDiscrete customDiscrete131,132
+customDiscrete customDiscrete132,133
+scale1 scale1137,138
+scale1 scale1138,139
+scale3 scale3151,152
+scale3 scale3152,153
+scale4 scale4156,157
+scale4 scale4157,158
+scale5 scale5161,162
+scale5 scale5162,163
+scale6 scale6167,168
+scale6 scale6168,169
+scale7 scale7172,173
+scale7 scale7173,174
+scale8 scale8177,178
+scale8 scale8178,179
+interp1 interp1182,183
+interp1 interp1183,184
+interp2 interp2188,189
+interp2 interp2189,190
+interp3 interp3194,195
+interp3 interp3195,196
+interp4 interp4200,201
+interp4 interp4201,202
+interp5 interp5206,207
+interp5 interp5207,208
+interp6 interp6212,213
+interp6 interp6213,214
+interp7 interp7218,219
+interp7 interp7219,220
+gamma1 gamma1224,225
+gamma1 gamma1225,226
+gamma2 gamma2230,231
+gamma2 gamma2231,232
+gamma3 gamma3236,237
+gamma3 gamma3237,238
+gamma4 gamma4242,243
+gamma4 gamma4243,244
+gamma5 gamma5248,249
+gamma5 gamma5249,250
+
+./tests/LegendTests.hs,736
+module LegendTests LegendTests5,6
+testSpecs testSpecs11,12
+testSpecs testSpecs12,13
+legendCore legendCore25,26
+legendCore legendCore26,27
+legendCoreCfg legendCoreCfg41,42
+legendCoreCfg legendCoreCfg42,43
+legend1 legend164,65
+legend1 legend165,66
+legend2 legend267,68
+legend2 legend268,69
+legend3 legend370,71
+legend3 legend371,72
+legend4 legend473,74
+legend4 legend474,75
+legend5 legend576,77
+legend5 legend577,78
+legend6 legend679,80
+legend6 legend680,81
+legend7 legend782,83
+legend7 legend783,84
+legend8 legend885,86
+legend8 legend886,87
+legend9 legend988,89
+legend9 legend989,90
+legend10 legend1091,92
+legend10 legend1092,93
+legend11 legend11106,107
+legend11 legend11107,108
+
+./tests/WindowTransformTests.hs,680
+module WindowTransformTests WindowTransformTests5,6
+testSpecs testSpecs11,12
+testSpecs testSpecs12,13
+window1 window124,25
+window1 window125,26
+window2 window245,46
+window2 window246,47
+window3 window375,76
+window3 window376,77
+window4 window4108,109
+window4 window4109,110
+window5 window5130,131
+window5 window5131,132
+window6 window6161,162
+window6 window6162,163
+window7 window7184,185
+window7 window7185,186
+joinAggregate1 joinAggregate1215,216
+joinAggregate1 joinAggregate1216,217
+joinAggregate2 joinAggregate2234,235
+joinAggregate2 joinAggregate2235,236
+joinAggregate3 joinAggregate3257,258
+joinAggregate3 joinAggregate3258,259
+
+./tests/ScaleTests.hs,485
+module ScaleTests ScaleTests5,6
+testSpecs testSpecs9,10
+testSpecs testSpecs10,11
+scale1 scale121,22
+scale1 scale122,23
+scale2 scale238,39
+scale2 scale239,40
+scale3 scale357,58
+scale3 scale358,59
+scale4 scale487,88
+scale4 scale488,89
+scale5 scale5116,117
+scale5 scale5117,118
+scale6 scale6154,155
+scale6 scale6155,156
+scale7 scale7173,174
+scale7 scale7174,175
+scale8 scale8192,193
+scale8 scale8193,194
+scale9 scale9211,212
+scale9 scale9212,213
+
+./tests/SortTests.hs,403
+module SortTests SortTests5,6
+testSpecs testSpecs11,12
+testSpecs testSpecs12,13
+sortQuant sortQuant20,21
+sortQuant sortQuant21,22
+sortAsc, sortDesc sortDesc37,38
+sortAsc,sortAsc37,38
+sortAsc sortAsc38,39
+sortDesc sortDesc39,40
+sortWeight sortWeight41,42
+sortWeight sortWeight42,43
+sortCustom sortCustom45,46
+sortCustom sortCustom46,47
+stack1 stack164,65
+stack1 stack165,66
+
+./tests/Test.hs,442
+toTest toTest85,86
+toTest toTest86,87
+toFP toFP88,89
+toFP toFP89,90
+gallery gallery94,95
+gallery gallery95,96
+toTests toTests97,98
+toTests toTests98,99
+toGTests toGTests104,105
+toGTests toGTests105,106
+baseTests baseTests108,109
+baseTests baseTests109,110
+galleryTests galleryTests135,136
+galleryTests galleryTests136,137
+allTests allTests154,155
+allTests allTests155,156
+main main157,158
+main main158,159
+
+./tests/TrailTests.hs,171
+module TrailTests TrailTests5,6
+testSpecs testSpecs9,10
+testSpecs testSpecs10,11
+trail1 trail115,16
+trail1 trail116,17
+trail2 trail235,36
+trail2 trail236,37
+
+./tests/ConditionalTests.hs,866
+module ConditionalTests ConditionalTests5,6
+testSpecs testSpecs11,12
+testSpecs testSpecs12,13
+markCondition1 markCondition123,24
+markCondition1 markCondition124,25
+markCondition2 markCondition250,51
+markCondition2 markCondition251,52
+selectionCondition1 selectionCondition171,72
+selectionCondition1 selectionCondition172,73
+selectionCondition2 selectionCondition2101,102
+selectionCondition2 selectionCondition2102,103
+selectionCondition3 selectionCondition3136,137
+selectionCondition3 selectionCondition3137,138
+selectionCondition4 selectionCondition4170,171
+selectionCondition4 selectionCondition4171,172
+selectionCondition5 selectionCondition5200,201
+selectionCondition5 selectionCondition5201,202
+bindScales1 bindScales1231,232
+bindScales1 bindScales1232,233
+bindScales2 bindScales2250,251
+bindScales2 bindScales2251,252
+
+./tests/AxisTests.hs,705
+module AxisTests AxisTests5,6
+testSpecs testSpecs13,14
+testSpecs testSpecs14,15
+pOrdinal, pQuant, pTemporal pTemporal29,30
+pOrdinal, pQuant,pQuant29,30
+pOrdinal,pOrdinal29,30
+pOrdinal pOrdinal30,31
+pQuant pQuant31,32
+pTemporal pTemporal32,33
+pName pName34,35
+pName pName35,36
+simpleData simpleData38,39
+simpleData simpleData39,40
+temporalData temporalData48,49
+temporalData temporalData49,50
+axis1 axis171,72
+axis1 axis172,73
+axis2 axis280,81
+axis2 axis281,82
+axis3 axis389,90
+axis3 axis390,91
+axis4 axis498,99
+axis4 axis499,100
+axis5 axis5110,111
+axis5 axis5111,112
+axis6 axis6122,123
+axis6 axis6123,124
+zorder zorder170,171
+zorder zorder171,172
+
+./tests/ShapeTests.hs,1787
+module ShapeTests ShapeTests6,7
+testSpecs testSpecs16,17
+testSpecs testSpecs17,18
+chart chart43,44
+chart chart44,45
+pointChart pointChart64,65
+pointChart pointChart65,66
+unitSquare, largeSquare, square, tri, cross cross84,85
+unitSquare, largeSquare, square, tri,tri84,85
+unitSquare, largeSquare, square,square84,85
+unitSquare, largeSquare,largeSquare84,85
+unitSquare,unitSquare84,85
+unitSquare unitSquare85,86
+largeSquare largeSquare86,87
+square square87,88
+tri tri88,89
+cross cross89,90
+scatter1 scatter192,93
+scatter1 scatter193,94
+scatter2 scatter298,99
+scatter2 scatter299,100
+scatter3 scatter3104,105
+scatter3 scatter3105,106
+scatter4 scatter4112,113
+scatter4 scatter4113,114
+scatter5 scatter5120,121
+scatter5 scatter5121,122
+scatter6 scatter6126,127
+scatter6 scatter6127,128
+scatter7 scatter7134,135
+scatter7 scatter7135,136
+scatter8 scatter8142,143
+scatter8 scatter8143,144
+scatter9 scatter9151,152
+scatter9 scatter9152,153
+scatter10 scatter10159,160
+scatter10 scatter10160,161
+scatter11 scatter11175,176
+scatter11 scatter11176,177
+scatter12 scatter12184,185
+scatter12 scatter12185,186
+scatter13 scatter13190,191
+scatter13 scatter13191,192
+scatter14 scatter14198,199
+scatter14 scatter14199,200
+scatter15 scatter15206,207
+scatter15 scatter15207,208
+isotypes isotypes221,222
+isotypes isotypes222,223
+personGrid personGrid246,247
+personGrid personGrid247,248
+point1 point1291,292
+point1 point1292,293
+point2 point2295,296
+point2 point2296,297
+point3 point3299,300
+point3 point3300,301
+point4 point4304,305
+point4 point4305,306
+point5 point5308,309
+point5 point5309,310
+point6 point6312,313
+point6 point6313,314
+point7 point7316,317
+point7 point7317,318
+
+./tests/ViewCompositionTests.hs,690
+module ViewCompositionTests ViewCompositionTests5,6
+testSpecs testSpecs13,14
+testSpecs testSpecs14,15
+genderChart genderChart26,27
+genderChart genderChart27,28
+columns1, columns2, columns3, columns4 columns467,68
+columns1, columns2, columns3,columns367,68
+columns1, columns2,columns267,68
+columns1,columns167,68
+columns1 columns168,69
+columns2 columns269,70
+columns3 columns370,71
+columns4 columns471,72
+dataVals dataVals80,81
+dataVals dataVals81,82
+grid1 grid1106,107
+grid1 grid1107,108
+grid2 grid2136,137
+grid2 grid2137,138
+grid3 grid3170,171
+grid3 grid3171,172
+grid4 grid4201,202
+grid4 grid4202,203
+grid5 grid5223,224
+grid5 grid5224,225
+
+./src/Graphics/Vega/VegaLite/Input.hs,1545
+module Graphics.Vega.VegaLite.InputGraphics.Vega.VegaLite.Input17,18
+import import47,48
+data DataTypeDataType77,78
+    = FoNumberFoNumber78,79
+    | FoBooleanFoBoolean80,81
+    | FoDate FoDate82,83
+    | FoUtc FoUtc86,87
+data FormatFormat100,101
+    = JSON JSON101,102
+    | CSVCSV105,106
+    | TSVTSV107,108
+    | DSV DSV109,110
+    | TopojsonFeature TopojsonFeature120,121
+    | TopojsonMesh TopojsonMesh126,127
+    | Parse Parse130,131
+type DataColumn DataColumn148,149
+type DataRow DataRow155,156
+type Data Data173,174
+formatProperty formatProperty176,177
+formatProperty formatProperty177,178
+dataTypeSpec dataTypeSpec197,198
+dataTypeSpec dataTypeSpec198,199
+dataRow dataRow220,221
+dataRow dataRow221,222
+datasets datasets252,253
+datasets datasets253,254
+noData noData277,278
+noData noData278,279
+dataName dataName296,297
+dataName dataName304,305
+dataFromColumns dataFromColumns342,343
+dataFromColumns dataFromColumns357,358
+transpose transpose370,371
+transpose transpose371,372
+dataFromJson dataFromJson407,408
+dataFromJson dataFromJson408,409
+dataColumn dataColumn428,429
+dataColumn dataColumn429,430
+dataFromRows dataFromRows463,464
+dataFromRows dataFromRows478,479
+dataFromSource dataFromSource505,506
+dataFromSource dataFromSource506,507
+dataFromUrl dataFromUrl528,529
+dataFromUrl dataFromUrl529,530
+dataSequence dataSequence550,551
+dataSequence dataSequence555,556
+dataSequenceAs dataSequenceAs577,578
+dataSequenceAs dataSequenceAs583,584
+
+./src/Graphics/Vega/VegaLite/Geometry.hs,2905
+module Graphics.Vega.VegaLite.GeometryGraphics.Vega.VegaLite.Geometry16,17
+import import40,41
+type_ type_63,64
+type_ type_64,65
+geoFeatureCollection geoFeatureCollection82,83
+geoFeatureCollection geoFeatureCollection83,84
+geometryCollection geometryCollection102,103
+geometryCollection geometryCollection103,104
+data ProjectionProjection119,120
+    = AlbersAlbers120,121
+    | AlbersUsaAlbersUsa122,123
+    | AzimuthalEqualAreaAzimuthalEqualArea126,127
+    | AzimuthalEquidistantAzimuthalEquidistant128,129
+    | ConicConformalConicConformal130,131
+    | ConicEqualAreaConicEqualArea132,133
+    | ConicEquidistantConicEquidistant134,135
+    | Custom Custom136,137
+    | EquirectangularEquirectangular142,143
+    | GnomonicGnomonic146,147
+    | IdentityIdentity148,149
+    | MercatorMercator153,154
+    | OrthographicOrthographic158,159
+    | StereographicStereographic160,161
+    | TransverseMercatorTransverseMercator162,163
+projectionLabel projectionLabel166,167
+projectionLabel projectionLabel167,168
+data ClipRectClipRect187,188
+    = NoClipNoClip188,189
+    | LTRB LTRB190,191
+data ProjectionPropertyProjectionProperty209,210
+    = PrType PrType210,211
+    | PrClipAngle PrClipAngle212,213
+    | PrClipExtent PrClipExtent215,216
+    | PrCenter PrCenter217,218
+    | PrScale PrScale219,220
+    | PrTranslate PrTranslate224,225
+    | PrRotate PrRotate231,232
+    | PrPrecision PrPrecision234,235
+    | PrReflectX PrReflectX242,243
+    | PrReflectY PrReflectY248,249
+    | PrCoefficient PrCoefficient254,255
+    | PrDistance PrDistance256,257
+    | PrFraction PrFraction258,259
+    | PrLobes PrLobes260,261
+    | PrParallel PrParallel262,263
+    | PrRadius PrRadius264,265
+    | PrRatio PrRatio266,267
+    | PrSpacing PrSpacing268,269
+    | PrTilt PrTilt270,271
+projectionProperty projectionProperty274,275
+projectionProperty projectionProperty275,276
+projection projection311,312
+projection projection312,313
+data GeometryGeometry323,324
+    = GeoPoint GeoPoint324,325
+    | GeoPoints GeoPoints326,327
+    | GeoLine GeoLine328,329
+    | GeoLines GeoLines330,331
+    | GeoPolygon GeoPolygon332,333
+    | GeoPolygons GeoPolygons334,335
+geometry geometry348,349
+geometry geometry349,350
+geometryTypeSpec geometryTypeSpec359,360
+geometryTypeSpec geometryTypeSpec360,361
+sphere sphere394,395
+sphere sphere395,396
+graticule graticule418,419
+graticule graticule421,422
+data GraticulePropertyGraticuleProperty434,435
+    = GrExtent GrExtent435,436
+    | GrExtentMajor GrExtentMajor439,440
+    | GrExtentMinor GrExtentMinor441,442
+    | GrStep GrStep443,444
+    | GrStepMajor GrStepMajor450,451
+    | GrStepMinor GrStepMinor454,455
+    | GrPrecision GrPrecision458,459
+graticuleProperty graticuleProperty466,467
+graticuleProperty graticuleProperty467,468
+
+./src/Graphics/Vega/VegaLite/Transform.hs,3646
+module Graphics.Vega.VegaLite.TransformGraphics.Vega.VegaLite.Transform20,21
+import import45,46
+data OperationOperation74,75
+    = ArgMax ArgMax75,76
+    | ArgMin ArgMin107,108
+    | CI0CI0113,114
+    | CI1CI1115,116
+    | CountCount117,118
+    | DistinctDistinct119,120
+    | MaxMax121,122
+    | MeanMean123,124
+    | MedianMedian125,126
+    | MinMin127,128
+    | MissingMissing129,130
+    | Q1Q1131,132
+    | Q3Q3133,134
+    | StderrStderr135,136
+    | StdevStdev137,138
+    | StdevPStdevP139,140
+    | SumSum141,142
+    | ValidValid143,144
+    | VarianceVariance146,147
+    | VariancePVarianceP148,149
+operationSpec operationSpec154,155
+operationSpec operationSpec155,156
+aggregate_ aggregate_179,180
+aggregate_ aggregate_180,181
+op_ op_182,183
+op_ op_183,184
+data WindowWindow190,191
+    = WAggregateOp WAggregateOp191,192
+    | WOp WOp193,194
+    | WParam WParam195,196
+    | WField WField198,199
+windowFieldProperty windowFieldProperty203,204
+windowFieldProperty windowFieldProperty204,205
+data WOperationWOperation214,215
+    = RowNumberRowNumber215,216
+    | RankRank217,218
+    | DenseRankDenseRank219,220
+    | PercentRankPercentRank221,222
+    | CumeDistCumeDist223,224
+    | NtileNtile225,226
+    | LagLag227,228
+    | LeadLead229,230
+    | FirstValueFirstValue231,232
+    | LastValueLastValue233,234
+    | NthValueNthValue235,236
+wOperationLabel wOperationLabel239,240
+wOperationLabel wOperationLabel240,241
+data BinPropertyBinProperty265,266
+    = AlreadyBinned AlreadyBinned266,267
+    | BinAnchor BinAnchor270,271
+    | Base Base276,277
+    | Divide Divide280,281
+    | Extent Extent286,287
+    | MaxBins MaxBins288,289
+    | MinStep MinStep293,294
+    | Nice Nice295,296
+    | Step Step300,301
+    | Steps Steps304,305
+binProperty binProperty308,309
+binProperty binProperty309,310
+bin bin321,322
+bin bin322,323
+binned_ binned_325,326
+binned_ binned_326,327
+data WindowPropertyWindowProperty333,334
+    = WFrame WFrame334,335
+    | WIgnorePeers WIgnorePeers339,340
+    | WGroupBy WGroupBy342,343
+    | WSort WSort346,347
+wpFrame , wpIgnorePeers, wpGroupBy, wpSort wpSort353,354
+wpFrame , wpIgnorePeers, wpGroupBy,wpGroupBy353,354
+wpFrame , wpIgnorePeers,wpIgnorePeers353,354
+wpFrame wpFrame353,354
+wpFrame wpFrame354,355
+wpIgnorePeers wpIgnorePeers357,358
+wpGroupBy wpGroupBy360,361
+wpSort wpSort363,364
+windowPropertySpec windowPropertySpec366,367
+windowPropertySpec windowPropertySpec367,368
+data ImputePropertyImputeProperty383,384
+    = ImFrame ImFrame384,385
+    | ImKeyVals ImKeyVals389,390
+    | ImKeyValSequence ImKeyValSequence391,392
+    | ImMethod ImMethod395,396
+    | ImGroupBy ImGroupBy400,401
+    | ImNewValue ImNewValue403,404
+imputeProperty imputeProperty407,408
+imputeProperty imputeProperty408,409
+imputePropertySpecFrame imputePropertySpecFrame421,422
+imputePropertySpecKeyVals imputePropertySpecKeyVals424,425
+imputePropertySpecKeyValSequence imputePropertySpecKeyValSequence427,428
+imputePropertySpecGroupBy imputePropertySpecGroupBy432,433
+imputePropertySpecMethod imputePropertySpecMethod435,436
+imputePropertySpecValue imputePropertySpecValue438,439
+impute_ impute_442,443
+impute_ impute_443,444
+imputeFields_ imputeFields_446,447
+imputeFields_ imputeFields_454,455
+data ImMethodImMethod474,475
+  = ImMinImMin475,476
+  | ImMaxImMax477,478
+  | ImMeanImMean479,480
+  | ImMedianImMedian481,482
+  | ImValueImValue483,484
+imMethodLabel imMethodLabel487,488
+imMethodLabel imMethodLabel488,489
+
+./src/Graphics/Vega/VegaLite/Specification.hs,2190
+module Graphics.Vega.VegaLite.SpecificationGraphics.Vega.VegaLite.Specification16,17
+import import41,42
+newtype VegaLite VegaLite55,56
+  VL VL56,57
+  fromVL fromVL57,58
+type VLSpec VLSpec70,71
+baseSchema baseSchema72,73
+baseSchema baseSchema73,74
+vlSchema2 vlSchema277,78
+vlSchema2 vlSchema278,79
+vlSchema3 vlSchema382,83
+vlSchema3 vlSchema383,84
+vlSchema4 vlSchema487,88
+vlSchema4 vlSchema488,89
+vlSchema vlSchema108,109
+vlSchema vlSchema119,120
+showNat showNat129,130
+showNat showNat130,131
+toVegaLite toVegaLite180,181
+toVegaLite toVegaLite181,182
+toVegaLiteSchema toVegaLiteSchema193,194
+toVegaLiteSchema toVegaLiteSchema199,200
+combineSpecs combineSpecs220,221
+combineSpecs combineSpecs221,222
+asSpec asSpec236,237
+asSpec asSpec237,238
+specification specification251,252
+specification specification252,253
+type PropertySpec PropertySpec261,262
+type LabelledSpec LabelledSpec269,270
+type BuildLabelledSpecs BuildLabelledSpecs276,277
+data VLPropertyVLProperty337,338
+    = VLAlignVLAlign338,339
+    | VLAutosizeVLAutosize342,343
+    | VLBackgroundVLBackground344,345
+    | VLBoundsVLBounds346,347
+    | VLCenterVLCenter350,351
+    | VLColumnsVLColumns354,355
+    | VLConcatVLConcat358,359
+    | VLConfigVLConfig362,363
+    | VLDataVLData364,365
+    | VLDatasetsVLDatasets368,369
+    | VLDescriptionVLDescription370,371
+    | VLEncodingVLEncoding372,373
+    | VLFacetVLFacet374,375
+    | VLHConcatVLHConcat376,377
+    | VLHeightVLHeight378,379
+    | VLLayerVLLayer380,381
+    | VLMarkVLMark382,383
+    | VLNameVLName384,385
+    | VLPaddingVLPadding386,387
+    | VLProjectionVLProjection388,389
+    | VLRepeatVLRepeat390,391
+    | VLResolveVLResolve392,393
+    | VLSelectionVLSelection394,395
+    | VLSpacingVLSpacing396,397
+    | VLSpecificationVLSpecification400,401
+    | VLTitleVLTitle402,403
+    | VLTransformVLTransform404,405
+    | VLUserMetadataVLUserMetadata406,407
+    | VLVConcatVLVConcat410,411
+    | VLViewBackgroundVLViewBackground412,413
+    | VLWidthVLWidth416,417
+vlPropertyLabel vlPropertyLabel420,421
+vlPropertyLabel vlPropertyLabel421,422
+
+./src/Graphics/Vega/VegaLite/Output.hs,309
+module Graphics.Vega.VegaLite.OutputGraphics.Vega.VegaLite.Output16,17
+toHtml toHtml43,44
+toHtml toHtml44,45
+toHtmlFile toHtmlFile53,54
+toHtmlFile toHtmlFile54,55
+toHtmlWith toHtmlWith69,70
+toHtmlWith toHtmlWith77,78
+toHtmlFileWith toHtmlFileWith110,111
+toHtmlFileWith toHtmlFileWith120,121
+
+./src/Graphics/Vega/VegaLite/Data.hs,543
+module Graphics.Vega.VegaLite.DataGraphics.Vega.VegaLite.Data13,14
+data DataValueDataValue45,46
+    = Boolean Boolean46,47
+    | DateTime DateTime47,48
+    | Number Number48,49
+    | Str Str49,50
+    | NullValueNullValue50,51
+dataValueSpec dataValueSpec68,69
+dataValueSpec dataValueSpec69,70
+data DataValuesDataValues87,88
+    = Booleans Booleans88,89
+    | DateTimes DateTimes89,90
+    | Numbers Numbers90,91
+    | Strings Strings91,92
+dataValuesSpecs dataValuesSpecs94,95
+dataValuesSpecs dataValuesSpecs95,96
+
+./src/Graphics/Vega/VegaLite/Scale.hs,917
+module Graphics.Vega.VegaLite.ScaleGraphics.Vega.VegaLite.Scale15,16
+import import27,28
+data ScaleDomainScaleDomain50,51
+    = DNumbers DNumbers51,52
+    | DStrings DStrings53,54
+    | DDateTimes DDateTimes55,56
+    | DSelection DSelection57,58
+    | UnaggregatedUnaggregated59,60
+scaleDomainSpec scaleDomainSpec62,63
+scaleDomainSpec scaleDomainSpec63,64
+data ScaleNiceScaleNice75,76
+    = NMillisecondNMillisecond76,77
+    | NSecondNSecond78,79
+    | NMinuteNMinute80,81
+    | NHourNHour82,83
+    | NDayNDay84,85
+    | NWeekNWeek86,87
+    | NMonthNMonth88,89
+    | NYearNYear90,91
+    | NInterval NInterval92,93
+    | IsNice IsNice94,95
+    | NTickCount NTickCount96,97
+scaleNiceSpec scaleNiceSpec100,101
+scaleNiceSpec scaleNiceSpec101,102
+data ScaleRangeScaleRange130,131
+    = RNumbers RNumbers131,132
+    | RStrings RStrings136,137
+    | RName RName138,139
+
+./src/Graphics/Vega/VegaLite/Selection.hs,2573
+module Graphics.Vega.VegaLite.SelectionGraphics.Vega.VegaLite.Selection15,16
+import import36,37
+data SelectionSelection59,60
+    = SingleSingle60,61
+    | MultiMulti62,63
+    | IntervalInterval65,66
+selectionLabel selectionLabel70,71
+selectionLabel selectionLabel71,72
+data SelectionPropertySelectionProperty84,85
+    = EmptyEmpty85,86
+    | BindScalesBindScales87,88
+    | On On93,94
+    | Clear Clear96,97
+    | Translate Translate112,113
+    | Zoom Zoom115,116
+    | Fields Fields118,119
+    | Encodings Encodings120,121
+    | SInit SInit127,128
+    | SInitInterval SInitInterval150,151
+    | ResolveSelections ResolveSelections172,173
+    | SelectionMark SelectionMark175,176
+    | Bind Bind177,178
+    | Nearest Nearest200,201
+    | Toggle Toggle203,204
+selectionProperty selectionProperty208,209
+selectionProperty selectionProperty209,210
+data SelectionResolutionSelectionResolution242,243
+    = GlobalGlobal243,244
+    | UnionUnion245,246
+    | IntersectionIntersection248,249
+selectionResolutionLabel selectionResolutionLabel253,254
+selectionResolutionLabel selectionResolutionLabel254,255
+data SelectionMarkPropertySelectionMarkProperty266,267
+    = SMFill SMFill267,268
+    | SMFillOpacity SMFillOpacity268,269
+    | SMStroke SMStroke269,270
+    | SMStrokeOpacity SMStrokeOpacity270,271
+    | SMStrokeWidth SMStrokeWidth271,272
+    | SMStrokeDash SMStrokeDash272,273
+    | SMStrokeDashOffset SMStrokeDashOffset273,274
+selectionMarkProperty selectionMarkProperty276,277
+selectionMarkProperty selectionMarkProperty277,278
+data InputPropertyInputProperty310,311
+    = Debounce Debounce311,312
+    | Element Element312,313
+    | InOptions InOptions313,314
+    | InMin InMin314,315
+    | InMax InMax315,316
+    | InName InName316,317
+    | InStep InStep317,318
+    | InPlaceholder InPlaceholder318,319
+inputProperty inputProperty321,322
+inputProperty inputProperty322,323
+data BindingBinding340,341
+    = IRange IRange341,342
+    | ICheckbox ICheckbox343,344
+    | IRadio IRadio345,346
+    | ISelect ISelect347,348
+    | IText IText349,350
+    | INumber INumber351,352
+    | IDate IDate353,354
+    | ITime ITime355,356
+    | IMonth IMonth357,358
+    | IWeek IWeek359,360
+    | IDateTimeLocal IDateTimeLocal361,362
+    | ITel ITel363,364
+    | IColor IColor365,366
+bindingSpec bindingSpec369,370
+bindingSpec bindingSpec370,371
+selection selection406,407
+selection selection407,408
+select select423,424
+select select431,432
+
+./src/Graphics/Vega/VegaLite/Time.hs,2114
+module Graphics.Vega.VegaLite.TimeGraphics.Vega.VegaLite.Time16,17
+import import34,35
+timeUnit_ timeUnit_43,44
+timeUnit_ timeUnit_44,45
+data DateTimeDateTime54,55
+    = DTYear DTYear55,56
+    | DTQuarter DTQuarter56,57
+    | DTMonth DTMonth57,58
+    | DTDate DTDate58,59
+    | DTDay DTDay59,60
+    | DTHours DTHours60,61
+    | DTMinutes DTMinutes61,62
+    | DTSeconds DTSeconds62,63
+    | DTMilliseconds DTMilliseconds63,64
+data DayNameDayName68,69
+    = MonMon69,70
+    | TueTue70,71
+    | WedWed71,72
+    | ThuThu72,73
+    | FriFri73,74
+    | SatSat74,75
+    | SunSun75,76
+data MonthNameMonthName80,81
+    = JanJan81,82
+    | FebFeb82,83
+    | MarMar83,84
+    | AprApr84,85
+    | MayMay85,86
+    | JunJun86,87
+    | JulJul87,88
+    | AugAug88,89
+    | SepSep89,90
+    | OctOct90,91
+    | NovNov91,92
+    | DecDec92,93
+data TimeUnitTimeUnit107,108
+    = YearYear108,109
+    | YearQuarterYearQuarter109,110
+    | YearQuarterMonthYearQuarterMonth110,111
+    | YearMonthYearMonth111,112
+    | YearMonthDateYearMonthDate112,113
+    | YearMonthDateHoursYearMonthDateHours113,114
+    | YearMonthDateHoursMinutesYearMonthDateHoursMinutes114,115
+    | YearMonthDateHoursMinutesSecondsYearMonthDateHoursMinutesSeconds115,116
+    | QuarterQuarter116,117
+    | QuarterMonthQuarterMonth117,118
+    | MonthMonth118,119
+    | MonthDateMonthDate119,120
+    | DateDate120,121
+    | DayDay121,122
+    | HoursHours122,123
+    | HoursMinutesHoursMinutes123,124
+    | HoursMinutesSecondsHoursMinutesSeconds124,125
+    | MinutesMinutes125,126
+    | MinutesSecondsMinutesSeconds126,127
+    | SecondsSeconds127,128
+    | SecondsMillisecondsSecondsMilliseconds128,129
+    | MillisecondsMilliseconds129,130
+    | Utc Utc130,131
+dateTimeProperty dateTimeProperty135,136
+dateTimeProperty dateTimeProperty136,137
+dayLabel dayLabel147,148
+dayLabel dayLabel148,149
+monthNameLabel monthNameLabel157,158
+monthNameLabel monthNameLabel158,159
+timeUnitLabel timeUnitLabel172,173
+timeUnitLabel timeUnitLabel173,174
+
+./src/Graphics/Vega/VegaLite/Configuration.hs,11525
+module Graphics.Vega.VegaLite.ConfigurationGraphics.Vega.VegaLite.Configuration17,18
+import import41,42
+data ConfigurationPropertyConfigurationProperty139,140
+    = AreaStyle AreaStyle140,141
+    | Autosize Autosize142,143
+    | Axis Axis144,145
+    | AxisBand AxisBand146,147
+    | AxisBottom AxisBottom148,149
+    | AxisLeft AxisLeft150,151
+    | AxisRight AxisRight152,153
+    | AxisTop AxisTop154,155
+    | AxisX AxisX156,157
+    | AxisY AxisY158,159
+    | Background Background160,161
+    | BarStyle BarStyle162,163
+    | CircleStyle CircleStyle164,165
+    | ConcatStyle ConcatStyle166,167
+    | CountTitle CountTitle170,171
+    | FacetStyle FacetStyle172,173
+    | FieldTitle FieldTitle176,177
+    | GeoshapeStyle GeoshapeStyle178,179
+    | HeaderStyle HeaderStyle182,183
+    | Legend Legend186,187
+    | LineStyle LineStyle188,189
+    | MarkStyle MarkStyle190,191
+    | NamedStyle NamedStyle192,193
+    | NamedStyles NamedStyles194,195
+    | NumberFormat NumberFormat198,199
+    | Padding Padding200,201
+    | PointStyle PointStyle203,204
+    | Projection Projection205,206
+    | Range Range207,208
+    | RectStyle RectStyle209,210
+    | RemoveInvalid RemoveInvalid211,212
+    | RuleStyle RuleStyle214,215
+    | Scale Scale216,217
+    | SelectionStyle SelectionStyle218,219
+    | SquareStyle SquareStyle220,221
+    | Stack Stack222,223
+    | TextStyle TextStyle226,227
+    | TickStyle TickStyle228,229
+    | TimeFormat TimeFormat230,231
+    | TitleStyle TitleStyle232,233
+    | TrailStyle TrailStyle234,235
+    | View View238,239
+configProperty configProperty241,242
+configProperty configProperty242,243
+data ScaleConfigScaleConfig298,299
+    = SCBandPaddingInner SCBandPaddingInner299,300
+    | SCBandPaddingOuter SCBandPaddingOuter301,302
+    | SCBarBandPaddingInner SCBarBandPaddingInner303,304
+    | SCBarBandPaddingOuter SCBarBandPaddingOuter307,308
+    | SCRectBandPaddingInner SCRectBandPaddingInner311,312
+    | SCRectBandPaddingOuter SCRectBandPaddingOuter315,316
+    | SCClamp SCClamp319,320
+    | SCMaxBandSize SCMaxBandSize322,323
+    | SCMinBandSize SCMinBandSize325,326
+    | SCMaxFontSize SCMaxFontSize328,329
+    | SCMinFontSize SCMinFontSize331,332
+    | SCMaxOpacity SCMaxOpacity334,335
+    | SCMinOpacity SCMinOpacity336,337
+    | SCMaxSize SCMaxSize338,339
+    | SCMinSize SCMinSize340,341
+    | SCMaxStrokeWidth SCMaxStrokeWidth342,343
+    | SCMinStrokeWidth SCMinStrokeWidth344,345
+    | SCPointPadding SCPointPadding346,347
+    | SCRangeStep SCRangeStep348,349
+    | SCRound SCRound350,351
+    | SCTextXRangeStep SCTextXRangeStep353,354
+    | SCUseUnaggregatedDomain SCUseUnaggregatedDomain355,356
+scaleConfig_ scaleConfig_359,360
+scaleConfig_ scaleConfig_361,362
+data FieldTitlePropertyFieldTitleProperty366,367
+    = VerbalVerbal367,368
+    | FunctionFunction369,370
+    | PlainPlain371,372
+fieldTitleLabel fieldTitleLabel375,376
+fieldTitleLabel fieldTitleLabel376,377
+data LegendConfigLegendConfig402,403
+    = LeClipHeight LeClipHeight403,404
+    | LeColumnPadding LeColumnPadding407,408
+    | LeColumns LeColumns411,412
+    | LeCornerRadius LeCornerRadius416,417
+    | LeFillColor LeFillColor418,419
+    | LeGradientDirection LeGradientDirection420,421
+    | LeGradientHorizontalMaxLength LeGradientHorizontalMaxLength424,425
+    | LeGradientHorizontalMinLength LeGradientHorizontalMinLength428,429
+    | LeGradientLabelLimit LeGradientLabelLimit432,433
+    | LeGradientLabelOffset LeGradientLabelOffset434,435
+    | LeGradientLength LeGradientLength436,437
+    | LeGradientOpacity LeGradientOpacity441,442
+    | LeGradientStrokeColor LeGradientStrokeColor445,446
+    | LeGradientStrokeWidth LeGradientStrokeWidth447,448
+    | LeGradientThickness LeGradientThickness449,450
+    | LeGradientVerticalMaxLength LeGradientVerticalMaxLength453,454
+    | LeGradientVerticalMinLength LeGradientVerticalMinLength457,458
+    | LeGridAlign LeGridAlign461,462
+    | LeLabelAlign LeLabelAlign465,466
+    | LeLabelBaseline LeLabelBaseline467,468
+    | LeLabelColor LeLabelColor469,470
+    | LeLabelFont LeLabelFont471,472
+    | LeLabelFontSize LeLabelFontSize473,474
+    | LeLabelFontStyle LeLabelFontStyle475,476
+    | LeLabelFontWeight LeLabelFontWeight479,480
+    | LeLabelLimit LeLabelLimit483,484
+    | LeLabelOffset LeLabelOffset485,486
+    | LeLabelOpacity LeLabelOpacity487,488
+    | LeLabelOverlap LeLabelOverlap491,492
+    | LeLabelPadding LeLabelPadding495,496
+    | LeLabelSeparation LeLabelSeparation499,500
+    | LeLayout LeLayout505,506
+     | LeLeX LeLeX509,510
+     | LeLeY LeLeY513,514
+    | LeOffset LeOffset517,518
+    | LeOrient LeOrient520,521
+    | LePadding LePadding522,523
+    | LeRowPadding LeRowPadding524,525
+    | LeShortTimeLabels LeShortTimeLabels528,529
+    | LeStrokeColor LeStrokeColor530,531
+    | LeStrokeDash LeStrokeDash532,533
+    | LeStrokeWidth LeStrokeWidth535,536
+    | LeSymbolBaseFillColor LeSymbolBaseFillColor537,538
+    | LeSymbolBaseStrokeColor LeSymbolBaseStrokeColor542,543
+    | LeSymbolDash LeSymbolDash547,548
+    | LeSymbolDashOffset LeSymbolDashOffset552,553
+    | LeSymbolDirection LeSymbolDirection557,558
+    | LeSymbolFillColor LeSymbolFillColor561,562
+    | LeSymbolOffset LeSymbolOffset565,566
+    | LeSymbolOpacity LeSymbolOpacity569,570
+    | LeSymbolSize LeSymbolSize573,574
+    | LeSymbolStrokeColor LeSymbolStrokeColor575,576
+    | LeSymbolStrokeWidth LeSymbolStrokeWidth579,580
+    | LeSymbolType LeSymbolType581,582
+    | LeTitle LeTitle583,584
+    | LeNoTitleLeNoTitle587,588
+    | LeTitleAlign LeTitleAlign591,592
+    | LeTitleAnchor LeTitleAnchor593,594
+    | LeTitleBaseline LeTitleBaseline597,598
+    | LeTitleColor LeTitleColor599,600
+    | LeTitleFont LeTitleFont601,602
+    | LeTitleFontSize LeTitleFontSize603,604
+    | LeTitleFontStyle LeTitleFontStyle605,606
+    | LeTitleFontWeight LeTitleFontWeight609,610
+    | LeTitleLimit LeTitleLimit611,612
+    | LeTitleOpacity LeTitleOpacity613,614
+    | LeTitleOrient LeTitleOrient617,618
+    | LeTitlePadding LeTitlePadding621,622
+legendConfigProperty legendConfigProperty625,626
+legendConfigProperty legendConfigProperty626,627
+data RangeConfigRangeConfig702,703
+    = RCategory RCategory703,704
+    | RDiverging RDiverging704,705
+    | RHeatmap RHeatmap705,706
+    | ROrdinal ROrdinal706,707
+    | RRamp RRamp707,708
+    | RSymbol RSymbol708,709
+rangeConfigProperty rangeConfigProperty711,712
+rangeConfigProperty rangeConfigProperty712,713
+scaleConfigProperty scaleConfigProperty724,725
+scaleConfigProperty scaleConfigProperty725,726
+data ViewConfigViewConfig765,766
+    = ViewWidth ViewWidth766,767
+    | ViewHeight ViewHeight770,771
+    | ViewClip ViewClip774,775
+    | ViewCornerRadius ViewCornerRadius776,777
+    | ViewFill ViewFill782,783
+    | ViewFillOpacity ViewFillOpacity784,785
+    | ViewOpacity ViewOpacity786,787
+    | ViewStroke ViewStroke794,795
+    | ViewStrokeCap ViewStrokeCap796,797
+    | ViewStrokeDash ViewStrokeDash800,801
+    | ViewStrokeDashOffset ViewStrokeDashOffset803,804
+    | ViewStrokeJoin ViewStrokeJoin805,806
+    | ViewStrokeMiterLimit ViewStrokeMiterLimit809,810
+    | ViewStrokeOpacity ViewStrokeOpacity813,814
+    | ViewStrokeWidth ViewStrokeWidth815,816
+viewConfigProperty viewConfigProperty819,820
+viewConfigProperty viewConfigProperty820,821
+data AxisConfigAxisConfig847,848
+    = BandPosition BandPosition848,849
+    | Domain Domain850,851
+    | DomainColor DomainColor852,853
+    | DomainDash DomainDash854,855
+    | DomainDashOffset DomainDashOffset859,860
+    | DomainOpacity DomainOpacity863,864
+    | DomainWidth DomainWidth867,868
+    | Grid Grid869,870
+    | GridColor GridColor871,872
+    | GridDash GridDash873,874
+    | GridDashOffset GridDashOffset876,877
+    | GridOpacity GridOpacity880,881
+    | GridWidth GridWidth882,883
+    | Labels Labels884,885
+    | LabelAlign LabelAlign886,887
+    | LabelAngle LabelAngle890,891
+    | LabelBaseline LabelBaseline892,893
+    | LabelNoBoundLabelNoBound896,897
+    | LabelBoundLabelBound903,904
+    | LabelBoundValue LabelBoundValue910,911
+    | LabelColor LabelColor917,918
+    | LabelNoFlushLabelNoFlush919,920
+    | LabelFlushLabelFlush926,927
+    | LabelFlushValue LabelFlushValue933,934
+    | LabelFlushOffset LabelFlushOffset942,943
+    | LabelFont LabelFont946,947
+    | LabelFontSize LabelFontSize948,949
+    | LabelFontStyle LabelFontStyle950,951
+    | LabelFontWeight LabelFontWeight954,955
+    | LabelLimit LabelLimit958,959
+    | LabelOpacity LabelOpacity960,961
+    | LabelOverlap LabelOverlap964,965
+    | LabelPadding LabelPadding966,967
+    | LabelSeparation LabelSeparation968,969
+    | MaxExtent MaxExtent974,975
+    | MinExtent MinExtent977,978
+    | NoTitleNoTitle980,981
+    | Orient Orient984,985
+    | ShortTimeLabels ShortTimeLabels988,989
+    | Ticks Ticks990,991
+    | TickColor TickColor992,993
+    | TickDash TickDash994,995
+    | TickDashOffset TickDashOffset997,998
+    | TickExtra TickExtra1001,1002
+    | TickOffset TickOffset1006,1007
+    | TickOpacity TickOpacity1010,1011
+    | TickRound TickRound1014,1015
+    | TickSize TickSize1016,1017
+    | TickWidth TickWidth1018,1019
+    | TitleAlign TitleAlign1020,1021
+    | TitleAnchor TitleAnchor1022,1023
+    | TitleAngle TitleAngle1026,1027
+    | TitleBaseline TitleBaseline1028,1029
+    | TitleColor TitleColor1030,1031
+    | TitleFont TitleFont1032,1033
+    | TitleFontSize TitleFontSize1034,1035
+    | TitleFontStyle TitleFontStyle1036,1037
+    | TitleFontWeight TitleFontWeight1040,1041
+    | TitleLimit TitleLimit1042,1043
+    | TitleOpacity TitleOpacity1044,1045
+    | TitlePadding TitlePadding1048,1049
+    | TitleX TitleX1050,1051
+    | TitleY TitleY1052,1053
+axisConfigProperty axisConfigProperty1056,1057
+axisConfigProperty axisConfigProperty1057,1058
+data FacetConfigFacetConfig1132,1133
+    = FColumns FColumns1133,1134
+    | FSpacing FSpacing1135,1136
+facetConfigProperty facetConfigProperty1139,1140
+facetConfigProperty facetConfigProperty1140,1141
+data TitleFrameTitleFrame1147,1148
+    = FrBoundsFrBounds1148,1149
+    | FrGroupFrGroup1150,1151
+titleFrameSpec titleFrameSpec1153,1154
+titleFrameSpec titleFrameSpec1154,1155
+data TitleConfigTitleConfig1165,1166
+    = TAnchor TAnchor1166,1167
+    | TAngle TAngle1168,1169
+    | TBaseline TBaseline1170,1171
+    | TColor TColor1172,1173
+    | TFont TFont1174,1175
+    | TFontSize TFontSize1176,1177
+    | TFontStyle TFontStyle1178,1179
+    | TFontWeight TFontWeight1182,1183
+    | TFrame TFrame1184,1185
+    | TLimit TLimit1188,1189
+    | TOffset TOffset1190,1191
+    | TOrient TOrient1192,1193
+    | TStyle TStyle1194,1195
+    | TZIndex TZIndex1201,1202
+titleConfigSpec titleConfigSpec1206,1207
+titleConfigSpec titleConfigSpec1207,1208
+data ConcatConfigConcatConfig1231,1232
+    = ConcatColumns ConcatColumns1232,1233
+    | ConcatSpacing ConcatSpacing1234,1235
+concatConfigProperty concatConfigProperty1238,1239
+concatConfigProperty concatConfigProperty1239,1240
+configuration configuration1253,1254
+configuration configuration1254,1255
+title title1274,1275
+title title1281,1282
+
+./src/Graphics/Vega/VegaLite/Mark.hs,4144
+module Graphics.Vega.VegaLite.MarkGraphics.Vega.VegaLite.Mark16,17
+import import35,36
+mprops_ mprops_68,69
+mprops_ mprops_69,70
+data MarkMark78,79
+    = AreaArea79,80
+    | BarBar83,84
+    | BoxplotBoxplot86,87
+    | CircleCircle107,108
+    | ErrorBarErrorBar110,111
+    | ErrorBandErrorBand121,122
+    | GeoshapeGeoshape132,133
+    | LineLine135,136
+    | PointPoint138,139
+    | RectRect141,142
+    | RuleRule143,144
+    | SquareSquare146,147
+    | TextText149,150
+    | TickTick152,153
+    | TrailTrail155,156
+markLabel markLabel162,163
+markLabel markLabel163,164
+data MarkPropertyMarkProperty197,198
+    = MAlign MAlign198,199
+    | MAngle MAngle200,201
+    | MBandSize MBandSize202,203
+    | MBaseline MBaseline204,205
+    | MBinSpacing MBinSpacing206,207
+    | MBorders MBorders211,212
+    | MBox MBox215,216
+    | MClip MClip219,220
+    | MColor MColor221,222
+    | MCursor MCursor224,225
+    | MContinuousBandSize MContinuousBandSize226,227
+    | MDiscreteBandSize MDiscreteBandSize228,229
+    | MdX MdX230,231
+    | MdY MdY232,233
+    | MExtent MExtent234,235
+    | MFill MFill239,240
+    | MFilled MFilled241,242
+    | MFillOpacity MFillOpacity244,245
+    | MFont MFont246,247
+    | MFontSize MFontSize249,250
+    | MFontStyle MFontStyle251,252
+    | MFontWeight MFontWeight253,254
+    | MHeight MHeight255,256
+    | MHRef MHRef259,260
+    | MInterpolate MInterpolate264,265
+    | MLine MLine266,267
+    | MMedian MMedian270,271
+    | MOpacity MOpacity274,275
+    | MOrder MOrder276,277
+    | MOrient MOrient282,283
+    | MOutliers MOutliers284,285
+    | MNoOutliersMNoOutliers288,289
+    | MPoint MPoint292,293
+    | MRadius MRadius296,297
+    | MRule MRule298,299
+    | MShape MShape302,303
+    | MShortTimeLabels MShortTimeLabels304,305
+    | MSize MSize306,307
+    | MStroke MStroke308,309
+    | MStrokeCap MStrokeCap310,311
+    | MStrokeDash MStrokeDash314,315
+    | MStrokeDashOffset MStrokeDashOffset317,318
+    | MStrokeJoin MStrokeJoin319,320
+    | MStrokeMiterLimit MStrokeMiterLimit323,324
+    | MStrokeOpacity MStrokeOpacity328,329
+    | MStrokeWidth MStrokeWidth330,331
+    | MStyle MStyle332,333
+    | MTension MTension335,336
+    | MText MText337,338
+    | MTheta MTheta339,340
+    | MThickness MThickness343,344
+    | MTicks MTicks345,346
+    | MTooltip MTooltip349,350
+    | MWidth MWidth353,354
+    | MX MX358,359
+    | MX2 MX2362,363
+    | MXOffset MXOffset367,368
+    | MX2Offset MX2Offset371,372
+    | MY MY375,376
+    | MY2 MY2379,380
+    | MYOffset MYOffset384,385
+    | MY2Offset MY2Offset388,389
+markProperty markProperty394,395
+markProperty markProperty395,396
+data MarkInterpolationMarkInterpolation468,469
+    = BasisBasis469,470
+    | BasisClosedBasisClosed470,471
+    | BasisOpenBasisOpen471,472
+    | BundleBundle472,473
+    | CardinalCardinal473,474
+    | CardinalClosedCardinalClosed474,475
+    | CardinalOpenCardinalOpen475,476
+    | LinearLinear476,477
+    | LinearClosedLinearClosed477,478
+    | MonotoneMonotone478,479
+    | StepAfterStepAfter479,480
+    | StepBeforeStepBefore480,481
+    | StepwiseStepwise481,482
+markInterpolationLabel markInterpolationLabel484,485
+markInterpolationLabel markInterpolationLabel485,486
+data PointMarkerPointMarker505,506
+    = PMTransparentPMTransparent506,507
+    | PMNonePMNone509,510
+    | PMMarker PMMarker511,512
+pointMarkerSpec pointMarkerSpec520,521
+pointMarkerSpec pointMarkerSpec521,522
+data LineMarkerLineMarker536,537
+  = LMNoneLMNone537,538
+  | LMMarker LMMarker539,540
+lineMarkerSpec lineMarkerSpec549,550
+lineMarkerSpec lineMarkerSpec550,551
+data MarkErrorExtentMarkErrorExtent574,575
+  = ConfidenceIntervalConfidenceInterval575,576
+  | StdErrStdErr577,578
+  | StdDevStdDev579,580
+  | IqrIqr581,582
+  | ExRangeExRange584,585
+  | IqrScale IqrScale586,587
+extent_ extent_594,595
+extent_ extent_595,596
+markErrorExtentLSpec markErrorExtentLSpec597,598
+markErrorExtentLSpec markErrorExtentLSpec598,599
+
+./src/Graphics/Vega/VegaLite/Foundation.hs,11438
+module Graphics.Vega.VegaLite.FoundationGraphics.Vega.VegaLite.Foundation17,18
+import import109,110
+field_ field_119,120
+field_ field_120,121
+header_ header_122,123
+header_ header_123,124
+order_ order_126,127
+order_ order_127,128
+allowNull allowNull131,132
+allowNull allowNull132,133
+type Color Color155,156
+type Opacity Opacity170,171
+type Angle Angle184,185
+type ZIndex ZIndex228,229
+data FontWeightFontWeight233,234
+    = BoldBold234,235
+    | BolderBolder235,236
+    | LighterLighter236,237
+    | NormalNormal237,238
+    | W100W100238,239
+    | W200W200239,240
+    | W300W300240,241
+    | W400W400241,242
+    | W500W500242,243
+    | W600W600243,244
+    | W700W700244,245
+    | W800W800245,246
+    | W900W900246,247
+fromF fromF249,250
+fromF fromF250,251
+fromT fromT252,253
+fromT fromT253,254
+fontWeightSpec fontWeightSpec256,257
+fontWeightSpec fontWeightSpec257,258
+data MeasurementMeasurement278,279
+    = NominalNominal279,280
+    | OrdinalOrdinal281,282
+    | QuantitativeQuantitative283,284
+    | TemporalTemporal285,286
+    | GeoFeatureGeoFeature287,288
+measurementLabel measurementLabel294,295
+measurementLabel measurementLabel295,296
+data ArrangementArrangement309,310
+    = ColumnColumn310,311
+    | RowRow312,313
+    | FlowFlow314,315
+arrangementLabel arrangementLabel320,321
+arrangementLabel arrangementLabel321,322
+data APositionAPosition328,329
+    = AStartAStart329,330
+    | AMiddleAMiddle331,332
+    | AEndAEnd333,334
+anchorLabel anchorLabel337,338
+anchorLabel anchorLabel338,339
+data OrientationOrientation356,357
+    = HorizontalHorizontal357,358
+    | VerticalVertical359,360
+orientationSpec orientationSpec363,364
+orientationSpec orientationSpec364,365
+data PositionPosition384,385
+    = XX385,386
+    | YY386,387
+    | X2X2387,388
+    | Y2Y2390,391
+    | XErrorXError393,394
+    | XError2XError2399,400
+    | YErrorYError405,406
+    | YError2YError2411,412
+    | LongitudeLongitude417,418
+    | LatitudeLatitude419,420
+    | Longitude2Longitude2421,422
+    | Latitude2Latitude2423,424
+positionLabel positionLabel427,428
+positionLabel positionLabel428,429
+data HAlignHAlign445,446
+    = AlignCenterAlignCenter446,447
+    | AlignLeftAlignLeft447,448
+    | AlignRightAlignRight448,449
+data VAlignVAlign453,454
+    = AlignTopAlignTop454,455
+    | AlignMiddleAlignMiddle455,456
+    | AlignBottomAlignBottom456,457
+hAlignLabel hAlignLabel459,460
+hAlignLabel hAlignLabel460,461
+vAlignLabel vAlignLabel465,466
+vAlignLabel vAlignLabel466,467
+data StrokeCapStrokeCap476,477
+    = CButtCButt477,478
+    | CRoundCRound479,480
+    | CSquareCSquare481,482
+strokeCapLabel strokeCapLabel485,486
+strokeCapLabel strokeCapLabel486,487
+data StrokeJoinStrokeJoin497,498
+    = JMiterJMiter498,499
+    | JRoundJRound500,501
+    | JBevelJBevel502,503
+strokeJoinLabel strokeJoinLabel506,507
+strokeJoinLabel strokeJoinLabel507,508
+data ScaleScale517,518
+    = ScLinearScLinear518,519
+    | ScPowScPow520,521
+    | ScSqrtScSqrt523,524
+    | ScLogScLog525,526
+    | ScSymLogScSymLog528,529
+    | ScTimeScTime534,535
+    | ScUtcScUtc536,537
+    | ScOrdinalScOrdinal538,539
+    | ScBandScBand540,541
+    | ScPointScPoint542,543
+    | ScBinLinearScBinLinear544,545
+    | ScBinOrdinalScBinOrdinal546,547
+    | ScQuantileScQuantile548,549
+    | ScQuantizeScQuantize552,553
+    | ScThresholdScThreshold556,557
+scaleLabel scaleLabel562,563
+scaleLabel scaleLabel563,564
+data SortFieldSortField584,585
+    = WAscending WAscending585,586
+    | WDescending WDescending587,588
+sortFieldSpec sortFieldSpec591,592
+sortFieldSpec sortFieldSpec592,593
+data CursorCursor603,604
+    = CAutoCAuto604,605
+    | CDefaultCDefault605,606
+    | CNoneCNone606,607
+    | CContextMenuCContextMenu607,608
+    | CHelpCHelp608,609
+    | CPointerCPointer609,610
+    | CProgressCProgress610,611
+    | CWaitCWait611,612
+    | CCellCCell612,613
+    | CCrosshairCCrosshair613,614
+    | CTextCText614,615
+    | CVerticalTextCVerticalText615,616
+    | CAliasCAlias616,617
+    | CCopyCCopy617,618
+    | CMoveCMove618,619
+    | CNoDropCNoDrop619,620
+    | CNotAllowedCNotAllowed620,621
+    | CAllScrollCAllScroll621,622
+    | CColResizeCColResize622,623
+    | CRowResizeCRowResize623,624
+    | CNResizeCNResize624,625
+    | CEResizeCEResize625,626
+    | CSResizeCSResize626,627
+    | CWResizeCWResize627,628
+    | CNEResizeCNEResize628,629
+    | CNWResizeCNWResize629,630
+    | CSEResizeCSEResize630,631
+    | CSWResizeCSWResize631,632
+    | CEWResizeCEWResize632,633
+    | CNSResizeCNSResize633,634
+    | CNESWResizeCNESWResize634,635
+    | CNWSEResizeCNWSEResize635,636
+    | CZoomInCZoomIn636,637
+    | CZoomOutCZoomOut637,638
+    | CGrabCGrab638,639
+    | CGrabbingCGrabbing639,640
+cursorLabel cursorLabel642,643
+cursorLabel cursorLabel643,644
+data OverlapStrategyOverlapStrategy689,690
+    = ONoneONone690,691
+    | OParityOParity693,694
+    | OGreedyOGreedy696,697
+overlapStrategyLabel overlapStrategyLabel700,701
+overlapStrategyLabel overlapStrategyLabel701,702
+data SideSide708,709
+    = STopSTop709,710
+    | SBottomSBottom710,711
+    | SLeftSLeft711,712
+    | SRightSRight712,713
+sideLabel sideLabel715,716
+sideLabel sideLabel716,717
+data SymbolSymbol728,729
+    = SymCircleSymCircle729,730
+    | SymSquareSymSquare731,732
+    | SymCrossSymCross733,734
+    | SymDiamondSymDiamond735,736
+    | SymTriangleUpSymTriangleUp737,738
+    | SymTriangleDownSymTriangleDown739,740
+    | SymTriangleRightSymTriangleRight741,742
+    | SymTriangleLeftSymTriangleLeft745,746
+    | SymStrokeSymStroke749,750
+    | SymArrowSymArrow753,754
+    | SymTriangleSymTriangle757,758
+    | SymWedgeSymWedge762,763
+    | SymPath SymPath766,767
+symbolLabel symbolLabel774,775
+symbolLabel symbolLabel775,776
+data StackPropertyStackProperty795,796
+    = StOffset StOffset796,797
+    | StSort StSort800,801
+data StackOffsetStackOffset811,812
+    = StZeroStZero812,813
+    | StNormalizeStNormalize815,816
+    | StCenterStCenter818,819
+    | NoStackNoStack820,821
+stackOffsetSpec stackOffsetSpec823,824
+stackOffsetSpec stackOffsetSpec824,825
+stackOffset stackOffset829,830
+stackOffset stackOffset830,831
+stackPropertySpecOffset , stackPropertySpecSort:stackPropertySpecSort833,834
+stackPropertySpecOffset stackPropertySpecOffset833,834
+stackPropertySpecOffset stackPropertySpecOffset834,835
+stackPropertySpecSort stackPropertySpecSort837,838
+data TooltipContentTooltipContent845,846
+  = TTEncodingTTEncoding846,847
+  | TTDataTTData852,853
+  | TTNoneTTNone858,859
+ttContentLabel ttContentLabel867,868
+ttContentLabel ttContentLabel868,869
+data ChannelChannel877,878
+    = ChXChX878,879
+    | ChYChY879,880
+    | ChX2ChX2880,881
+    | ChY2ChY2881,882
+    | ChLongitudeChLongitude882,883
+    | ChLongitude2ChLongitude2884,885
+    | ChLatitudeChLatitude886,887
+    | ChLatitude2ChLatitude2888,889
+    | ChColorChColor890,891
+    | ChFillChFill891,892
+    | ChFillOpacityChFillOpacity893,894
+    | ChHrefChHref895,896
+    | ChKeyChKey897,898
+    | ChStrokeChStroke899,900
+    | ChStrokeOpacityChStrokeOpacity901,902
+    | ChStrokeWidthChStrokeWidth903,904
+    | ChOpacityChOpacity905,906
+    | ChShapeChShape906,907
+    | ChSizeChSize907,908
+    | ChTextChText908,909
+    | ChTooltipChTooltip910,911
+channelLabel channelLabel914,915
+channelLabel channelLabel915,916
+data ResolutionResolution948,949
+    = SharedShared949,950
+    | IndependentIndependent950,951
+resolutionLabel resolutionLabel953,954
+resolutionLabel resolutionLabel954,955
+data ResolveResolve965,966
+    = RAxis RAxis966,967
+    | RLegend RLegend967,968
+    | RScale RScale968,969
+resolveProperty resolveProperty971,972
+resolveProperty resolveProperty972,973
+data BoundsBounds986,987
+  = FullFull987,988
+  | FlushFlush990,991
+boundsSpec boundsSpec996,997
+boundsSpec boundsSpec997,998
+data CompositionAlignmentCompositionAlignment1006,1007
+    = CANoneCANone1007,1008
+    | CAEachCAEach1010,1011
+    | CAAllCAAll1012,1013
+compositionAlignmentSpec compositionAlignmentSpec1017,1018
+compositionAlignmentSpec compositionAlignmentSpec1018,1019
+data PaddingPadding1025,1026
+    = PSize PSize1026,1027
+    | PEdges PEdges1028,1029
+paddingSpec paddingSpec1032,1033
+paddingSpec paddingSpec1033,1034
+data AutosizeAutosize1050,1051
+    = AContentAContent1051,1052
+    | AFitAFit1054,1055
+    | ANoneANone1057,1058
+    | APadAPad1059,1060
+    | APaddingAPadding1062,1063
+    | AResizeAResize1065,1066
+autosizeProperty autosizeProperty1069,1070
+autosizeProperty autosizeProperty1070,1071
+data RepeatFieldsRepeatFields1085,1086
+    = RowFields RowFields1086,1087
+    | ColumnFields ColumnFields1087,1088
+repeatFieldsProperty repeatFieldsProperty1090,1091
+repeatFieldsProperty repeatFieldsProperty1091,1092
+data CInterpolateCInterpolate1108,1109
+    = CubeHelix CubeHelix1109,1110
+    | CubeHelixLong CubeHelixLong1112,1113
+    | HclHcl1115,1116
+    | HclLongHclLong1117,1118
+    | HslHsl1119,1120
+    | HslLongHslLong1121,1122
+    | LabLab1123,1124
+    | Rgb Rgb1125,1126
+pairT pairT1133,1134
+pairT pairT1134,1135
+cInterpolateSpec cInterpolateSpec1137,1138
+cInterpolateSpec cInterpolateSpec1138,1139
+data ViewBackgroundViewBackground1152,1153
+    = VBStyle VBStyle1153,1154
+    | VBCornerRadius VBCornerRadius1158,1159
+    | VBFill VBFill1160,1161
+    | VBFillOpacity VBFillOpacity1162,1163
+    | VBOpacity VBOpacity1164,1165
+    | VBStroke VBStroke1166,1167
+    | VBStrokeOpacity VBStrokeOpacity1169,1170
+    | VBStrokeWidth VBStrokeWidth1171,1172
+    | VBStrokeCap VBStrokeCap1173,1174
+    | VBStrokeDash VBStrokeDash1175,1176
+    | VBStrokeDashOffset VBStrokeDashOffset1177,1178
+    | VBStrokeJoin VBStrokeJoin1179,1180
+    | VBStrokeMiterLimit VBStrokeMiterLimit1181,1182
+viewBackgroundSpec viewBackgroundSpec1185,1186
+viewBackgroundSpec viewBackgroundSpec1186,1187
+data HeaderPropertyHeaderProperty1217,1218
+    = HFormat HFormat1218,1219
+    | HFormatAsNumHFormatAsNum1222,1223
+    | HFormatAsTemporalHFormatAsTemporal1228,1229
+    | HTitle HTitle1234,1235
+    | HNoTitleHNoTitle1236,1237
+    | HLabelAlign HLabelAlign1240,1241
+    | HLabelAnchor HLabelAnchor1244,1245
+    | HLabelAngle HLabelAngle1248,1249
+    | HLabelColor HLabelColor1252,1253
+    | HLabelFont HLabelFont1256,1257
+    | HLabelFontSize HLabelFontSize1260,1261
+    | HLabelLimit HLabelLimit1264,1265
+    | HLabelOrient HLabelOrient1268,1269
+    | HLabelPadding HLabelPadding1272,1273
+    | HTitleAlign HTitleAlign1276,1277
+    | HTitleAnchor HTitleAnchor1280,1281
+    | HTitleAngle HTitleAngle1284,1285
+    | HTitleBaseline HTitleBaseline1288,1289
+    | HTitleColor HTitleColor1292,1293
+    | HTitleFont HTitleFont1296,1297
+    | HTitleFontSize HTitleFontSize1300,1301
+    | HTitleFontWeight HTitleFontWeight1304,1305
+    | HTitleLimit HTitleLimit1308,1309
+    | HTitleOrient HTitleOrient1312,1313
+    | HTitlePadding HTitlePadding1316,1317
+headerProperty headerProperty1322,1323
+headerProperty headerProperty1323,1324
+
+./src/Graphics/Vega/VegaLite/Core.hs,13905
+module Graphics.Vega.VegaLite.CoreGraphics.Vega.VegaLite.Core20,21
+import import150,151
+clamped clamped274,275
+clamped clamped282,283
+repeat_ repeat_285,286
+repeat_ repeat_286,287
+sort_ sort_288,289
+sort_ sort_289,290
+mchan_ mchan_291,292
+mchan_ mchan_292,293
+mtype_ mtype_294,295
+mtype_ mtype_295,296
+scaleProp_ scaleProp_300,301
+scaleProp_ scaleProp_301,302
+value_ value_305,306
+value_ value_306,307
+selCond_ selCond_309,310
+selCond_ selCond_310,311
+dataCond_ dataCond_328,329
+dataCond_ dataCond_329,330
+opAs opAs360,361
+opAs opAs374,375
+mark mark398,399
+mark mark399,400
+data MarkChannelMarkChannel415,416
+    = MName MName416,417
+    | MRepeat MRepeat418,419
+    | MmType MmType422,423
+    | MScale MScale424,425
+    | MBin MBin429,430
+    | MBinnedMBinned431,432
+    | MSort MSort435,436
+    | MTimeUnit MTimeUnit439,440
+    | MTitle MTitle441,442
+    | MNoTitleMNoTitle445,446
+    | MAggregate MAggregate449,450
+    | MLegend MLegend452,453
+    | MSelectionCondition MSelectionCondition456,457
+    | MDataCondition MDataCondition468,469
+    | MPath MPath483,484
+    | MNumber MNumber486,487
+    | MString MString488,489
+    | MBoolean MBoolean490,491
+markChannelProperty markChannelProperty493,494
+markChannelProperty markChannelProperty494,495
+encoding encoding534,535
+encoding encoding535,536
+stack stack566,567
+stack stack578,579
+data ScalePropertyScaleProperty607,608
+    = SType SType608,609
+    | SAlign SAlign610,611
+    | SBase SBase619,620
+    | SBins SBins625,626
+    | SClamp SClamp630,631
+    | SConstant SConstant633,634
+    | SDomain SDomain639,640
+    | SExponent SExponent641,642
+    | SInterpolate SInterpolate645,646
+    | SNice SNice647,648
+    | SPadding SPadding649,650
+    | SPaddingInner SPaddingInner651,652
+    | SPaddingOuter SPaddingOuter653,654
+    | SRange SRange655,656
+    | SRangeStep SRangeStep657,658
+    | SRound SRound660,661
+    | SScheme SScheme664,665
+    | SZero SZero675,676
+scaleProperty scaleProperty681,682
+scaleProperty scaleProperty682,683
+schemeProperty schemeProperty708,709
+schemeProperty schemeProperty709,710
+data SortPropertySortProperty725,726
+    = AscendingAscending726,727
+    | DescendingDescending728,729
+    | CustomSort CustomSort730,731
+    | ByRepeatOp ByRepeatOp734,735
+    | ByFieldOp ByFieldOp740,741
+    | ByChannel ByChannel754,755
+sortProperty sortProperty768,769
+sortProperty sortProperty769,770
+sortPropertySpec sortPropertySpec777,778
+sortPropertySpec sortPropertySpec778,779
+data PositionChannelPositionChannel787,788
+    = PName PName788,789
+    | PHeightPHeight790,791
+    | PWidthPWidth795,796
+    | PNumber PNumber807,808
+    | PRepeat PRepeat813,814
+    | PmType PmType833,834
+    | PBin PBin835,836
+    | PBinnedPBinned851,852
+    | PTimeUnit PTimeUnit855,856
+    | PTitle PTitle857,858
+    | PNoTitlePNoTitle861,862
+    | PAggregate PAggregate865,866
+    | PScale PScale877,878
+    | PAxis PAxis893,894
+    | PSort PSort896,897
+    | PStack PStack898,899
+    | PImpute PImpute917,918
+positionChannelProperty positionChannelProperty924,925
+positionChannelProperty positionChannelProperty925,926
+background background963,964
+background background964,965
+description description980,981
+description description981,982
+usermetadata usermetadata988,989
+usermetadata usermetadata992,993
+data AxisPropertyAxisProperty1007,1008
+    = AxBandPosition AxBandPosition1008,1009
+    | AxDomain AxDomain1014,1015
+    | AxDomainColor AxDomainColor1016,1017
+    | AxDomainDash AxDomainDash1020,1021
+    | AxDomainDashOffset AxDomainDashOffset1025,1026
+    | AxDomainOpacity AxDomainOpacity1029,1030
+    | AxDomainWidth AxDomainWidth1033,1034
+    | AxFormat AxFormat1037,1038
+    | AxFormatAsNumAxFormatAsNum1041,1042
+    | AxFormatAsTemporalAxFormatAsTemporal1047,1048
+    | AxGrid AxGrid1053,1054
+    | AxGridColor AxGridColor1055,1056
+    | AxGridDash AxGridDash1059,1060
+    | AxGridDashOffset AxGridDashOffset1064,1065
+    | AxGridOpacity AxGridOpacity1068,1069
+    | AxGridWidth AxGridWidth1072,1073
+    | AxLabels AxLabels1076,1077
+    | AxLabelAlign AxLabelAlign1078,1079
+    | AxLabelAngle AxLabelAngle1082,1083
+    | AxLabelBaseline AxLabelBaseline1084,1085
+    | AxLabelNoBoundAxLabelNoBound1088,1089
+    | AxLabelBoundAxLabelBound1095,1096
+    | AxLabelBoundValue AxLabelBoundValue1102,1103
+    | AxLabelColor AxLabelColor1109,1110
+    | AxLabelNoFlushAxLabelNoFlush1113,1114
+    | AxLabelFlushAxLabelFlush1120,1121
+    | AxLabelFlushValue AxLabelFlushValue1127,1128
+    | AxLabelFlushOffset AxLabelFlushOffset1136,1137
+    | AxLabelFont AxLabelFont1140,1141
+    | AxLabelFontSize AxLabelFontSize1144,1145
+    | AxLabelFontStyle AxLabelFontStyle1148,1149
+    | AxLabelFontWeight AxLabelFontWeight1152,1153
+    | AxLabelLimit AxLabelLimit1156,1157
+    | AxLabelOpacity AxLabelOpacity1160,1161
+    | AxLabelOverlap AxLabelOverlap1164,1165
+    | AxLabelPadding AxLabelPadding1166,1167
+    | AxLabelSeparation AxLabelSeparation1168,1169
+    | AxMaxExtent AxMaxExtent1174,1175
+    | AxMinExtent AxMinExtent1177,1178
+    | AxOffset AxOffset1180,1181
+    | AxOrient AxOrient1183,1184
+    | AxPosition AxPosition1185,1186
+    | AxTicks AxTicks1187,1188
+    | AxTickColor AxTickColor1189,1190
+    | AxTickCount AxTickCount1193,1194
+    | AxTickDash AxTickDash1198,1199
+    | AxTickDashOffset AxTickDashOffset1203,1204
+    | AxTickExtra AxTickExtra1207,1208
+    | AxTickMinStep AxTickMinStep1212,1213
+    | AxTickOffset AxTickOffset1217,1218
+    | AxTickOpacity AxTickOpacity1221,1222
+    | AxTickRound AxTickRound1225,1226
+    | AxTickSize AxTickSize1229,1230
+    | AxTickWidth AxTickWidth1231,1232
+    | AxTitle AxTitle1235,1236
+    | AxNoTitleAxNoTitle1237,1238
+    | AxTitleAlign AxTitleAlign1241,1242
+    | AxTitleAnchor AxTitleAnchor1243,1244
+    | AxTitleAngle AxTitleAngle1247,1248
+    | AxTitleBaseline AxTitleBaseline1249,1250
+    | AxTitleColor AxTitleColor1253,1254
+    | AxTitleFont AxTitleFont1257,1258
+    | AxTitleFontSize AxTitleFontSize1261,1262
+    | AxTitleFontStyle AxTitleFontStyle1265,1266
+    | AxTitleFontWeight AxTitleFontWeight1269,1270
+    | AxTitleLimit AxTitleLimit1273,1274
+    | AxTitleOpacity AxTitleOpacity1277,1278
+    | AxTitlePadding AxTitlePadding1281,1282
+    | AxTitleX AxTitleX1283,1284
+    | AxTitleY AxTitleY1287,1288
+    | AxValues AxValues1291,1292
+    | AxDates AxDates1307,1308
+    | AxZIndex AxZIndex1312,1313
+axisProperty axisProperty1316,1317
+axisProperty axisProperty1317,1318
+autosize autosize1409,1410
+autosize autosize1410,1411
+viewBackground viewBackground1417,1418
+viewBackground viewBackground1418,1419
+data BooleanOpBooleanOp1439,1440
+    = Expr Expr1440,1441
+    | FilterOp FilterOp1444,1445
+    | FilterOpTrans FilterOpTrans1461,1462
+    | Selection Selection1478,1479
+    | SelectionName SelectionName1488,1489
+    | And And1498,1499
+    | Or Or1504,1505
+    | Not Not1506,1507
+booleanOpSpec booleanOpSpec1513,1514
+booleanOpSpec booleanOpSpec1514,1515
+data FilterFilter1535,1536
+    = FEqual FEqual1536,1537
+    | FLessThan FLessThan1539,1540
+    | FLessThanEq FLessThanEq1544,1545
+    | FGreaterThan FGreaterThan1549,1550
+    | FGreaterThanEq FGreaterThanEq1554,1555
+    | FExpr FExpr1559,1560
+    | FCompose FCompose1562,1563
+    | FSelection FSelection1577,1578
+    | FOneOf FOneOf1585,1586
+    | FRange FRange1588,1589
+    | FValid FValid1599,1600
+fop_ fop_1606,1607
+fop_ fop_1607,1608
+filterProperty filterProperty1609,1610
+filterProperty filterProperty1611,1612
+filterSpec filterSpec1642,1643
+filterSpec filterSpec1643,1644
+trFilterSpec trFilterSpec1647,1648
+trFilterSpec trFilterSpec1648,1649
+data FilterRangeFilterRange1658,1659
+    = NumberRange NumberRange1659,1660
+    | DateRange DateRange1660,1661
+data HyperlinkChannelHyperlinkChannel1665,1666
+    = HName HName1666,1667
+    | HRepeat HRepeat1668,1669
+    | HmType HmType1672,1673
+    | HBin HBin1674,1675
+    | HBinnedHBinned1676,1677
+    | HAggregate HAggregate1680,1681
+    | HTimeUnit HTimeUnit1683,1684
+    | HSelectionCondition HSelectionCondition1684,1685
+    | HDataCondition HDataCondition1688,1689
+    | HString HString1696,1697
+hyperlinkChannelProperty hyperlinkChannelProperty1699,1700
+hyperlinkChannelProperty hyperlinkChannelProperty1700,1701
+domainRangeMap domainRangeMap1736,1737
+domainRangeMap domainRangeMap1737,1738
+categoricalDomainMap categoricalDomainMap1765,1766
+categoricalDomainMap categoricalDomainMap1766,1767
+data FacetChannelFacetChannel1780,1781
+    = FName FName1781,1782
+    | FmType FmType1783,1784
+    | FAggregate FAggregate1785,1786
+    | FBin FBin1787,1788
+    | FHeader FHeader1790,1791
+    | FSort FSort1792,1793
+    | FTimeUnit FTimeUnit1796,1797
+    | FTitle FTitle1798,1799
+    | FNoTitleFNoTitle1802,1803
+facetChannelProperty facetChannelProperty1807,1808
+facetChannelProperty facetChannelProperty1808,1809
+data TextChannelTextChannel1824,1825
+    = TName TName1825,1826
+    | TAggregate TAggregate1827,1828
+    | TBin TBin1831,1832
+    | TBinnedTBinned1833,1834
+    | TDataCondition TDataCondition1837,1838
+    | TFormat TFormat1845,1846
+    | TFormatAsNumTFormatAsNum1849,1850
+    | TFormatAsTemporalTFormatAsTemporal1855,1856
+    | TmType TmType1861,1862
+    | TRepeat TRepeat1863,1864
+    | TSelectionCondition TSelectionCondition1867,1868
+    | TTitle TTitle1871,1872
+    | TNoTitleTNoTitle1875,1876
+    | TTimeUnit TTimeUnit1879,1880
+textChannelProperty textChannelProperty1883,1884
+textChannelProperty textChannelProperty1884,1885
+data OrderChannelOrderChannel1904,1905
+    = OName OName1905,1906
+    | ORepeat ORepeat1906,1907
+    | OmType OmType1910,1911
+    | OBin OBin1911,1912
+    | OAggregate OAggregate1912,1913
+    | OTimeUnit OTimeUnit1913,1914
+    | OSort OSort1914,1915
+orderChannelProperty orderChannelProperty1917,1918
+orderChannelProperty orderChannelProperty1918,1919
+data DetailChannelDetailChannel1929,1930
+    = DName DName1930,1931
+    | DmType DmType1931,1932
+    | DBin DBin1932,1933
+    | DTimeUnit DTimeUnit1933,1934
+    | DAggregate DAggregate1934,1935
+detailChannelProperty detailChannelProperty1937,1938
+detailChannelProperty detailChannelProperty1938,1939
+data FacetMappingFacetMapping1951,1952
+    = ColumnBy ColumnBy1952,1953
+    | RowBy RowBy1953,1954
+facetMappingProperty facetMappingProperty1956,1957
+facetMappingProperty facetMappingProperty1957,1958
+configure configure1982,1983
+configure configure1983,1984
+align align1993,1994
+align align1994,1995
+alignRC alignRC2003,2004
+alignRC alignRC2007,2008
+spacing spacing2019,2020
+spacing spacing2022,2023
+spacingRC spacingRC2031,2032
+spacingRC spacingRC2035,2036
+center center2045,2046
+center center2046,2047
+centerRC centerRC2056,2057
+centerRC centerRC2060,2061
+bounds bounds2070,2071
+bounds bounds2071,2072
+vlConcat vlConcat2106,2107
+vlConcat vlConcat2107,2108
+facet facet2135,2136
+facet facet2136,2137
+facetFlow facetFlow2160,2161
+facetFlow facetFlow2161,2162
+height height2180,2181
+height height2181,2182
+hConcat hConcat2195,2196
+hConcat hConcat2196,2197
+layer layer2227,2228
+layer layer2228,2229
+name name2244,2245
+name name2245,2246
+padding padding2265,2266
+padding padding2266,2267
+repeat repeat2296,2297
+repeat repeat2297,2298
+repeatFlow repeatFlow2322,2323
+repeatFlow repeatFlow2323,2324
+resolve resolve2369,2370
+resolve resolve2370,2371
+transform transform2395,2396
+transform transform2396,2397
+vConcat vConcat2552,2553
+vConcat vConcat2553,2554
+width width2572,2573
+width width2573,2574
+aggregate aggregate2594,2595
+aggregate aggregate2600,2601
+joinAggregate joinAggregate2631,2632
+joinAggregate joinAggregate2635,2636
+window window2657,2658
+window window2663,2664
+sample sample2687,2688
+sample sample2688,2689
+binAs binAs2704,2705
+binAs binAs2713,2714
+calculateAs calculateAs2731,2732
+calculateAs calculateAs2738,2739
+color color2756,2757
+color color2760,2761
+column column2782,2783
+column column2788,2789
+columns columns2803,2804
+columns columns2808,2809
+detail detail2824,2825
+detail detail2828,2829
+fill fill2848,2849
+fill fill2849,2850
+fillOpacity fillOpacity2863,2864
+fillOpacity fillOpacity2864,2865
+filter filter2891,2892
+filter filter2892,2893
+flatten flatten2906,2907
+flatten flatten2907,2908
+flattenAs flattenAs2918,2919
+flattenAs flattenAs2923,2924
+fold fold2958,2959
+fold fold2959,2960
+foldAs foldAs2970,2971
+foldAs foldAs2977,2978
+hyperlink hyperlink2999,3000
+hyperlink hyperlink3003,3004
+lookup lookup3030,3031
+lookup lookup3042,3043
+lookupAs lookupAs3081,3082
+lookupAs lookupAs3093,3094
+impute impute3125,3126
+impute impute3133,3134
+opacity opacity3152,3153
+opacity opacity3153,3154
+order order3168,3169
+order order3172,3173
+position position3195,3196
+position position3203,3204
+resolution resolution3221,3222
+resolution resolution3222,3223
+row row3250,3251
+row row3255,3256
+shape shape3266,3267
+shape shape3270,3271
+size size3281,3282
+size size3285,3286
+stroke stroke3301,3302
+stroke stroke3305,3306
+strokeOpacity strokeOpacity3318,3319
+strokeOpacity strokeOpacity3322,3323
+strokeWidth strokeWidth3333,3334
+strokeWidth strokeWidth3337,3338
+text text3355,3356
+text text3359,3360
+timeUnitAs timeUnitAs3385,3386
+timeUnitAs timeUnitAs3393,3394
+tooltip tooltip3415,3416
+tooltip tooltip3419,3420
+tooltips tooltips3436,3437
+tooltips tooltips3440,3441
+
+./src/Graphics/Vega/VegaLite/Legend.hs,4614
+module Graphics.Vega.VegaLite.LegendGraphics.Vega.VegaLite.Legend15,16
+import import33,34
+data LegendTypeLegendType74,75
+    = GradientLegendGradientLegend75,76
+    | SymbolLegendSymbolLegend77,78
+legendLabel legendLabel81,82
+legendLabel legendLabel82,83
+data LegendOrientationLegendOrientation96,97
+  = LONoneLONone97,98
+  | LOLeftLOLeft98,99
+  | LORightLORight99,100
+  | LOTopLOTop100,101
+  | LOBottomLOBottom102,103
+  | LOTopLeftLOTopLeft104,105
+  | LOTopRightLOTopRight105,106
+  | LOBottomLeftLOBottomLeft106,107
+  | LOBottomRightLOBottomRight107,108
+legendOrientLabel legendOrientLabel110,111
+legendOrientLabel legendOrientLabel111,112
+data LegendLayoutLegendLayout134,135
+  = LeLAnchor LeLAnchor135,136
+  | LeLBottom LeLBottom137,138
+  | LeLBottomLeft LeLBottomLeft138,139
+  | LeLBottomRight LeLBottomRight139,140
+  | LeLBounds LeLBounds140,141
+  | LeLCenter LeLCenter142,143
+  | LeLDirection LeLDirection144,145
+  | LeLLeft LeLLeft146,147
+  | LeLMargin LeLMargin147,148
+  | LeLOffset LeLOffset149,150
+  | LeLRight LeLRight151,152
+  | LeLTop LeLTop152,153
+  | LeLTopLeft LeLTopLeft153,154
+  | LeLTopRight LeLTopRight154,155
+legendLayoutSpec legendLayoutSpec157,158
+legendLayoutSpec legendLayoutSpec158,159
+data BaseLegendLayoutBaseLegendLayout184,185
+  = BLeLAnchor BLeLAnchor185,186
+  | BLeLBounds BLeLBounds187,188
+  | BLeLCenter BLeLCenter189,190
+  | BLeLDirection BLeLDirection191,192
+  | BLeLMargin BLeLMargin193,194
+  | BLeLOffset BLeLOffset195,196
+toBLSpec toBLSpec199,200
+toBLSpec toBLSpec200,201
+baseLegendLayoutSpec baseLegendLayoutSpec202,203
+baseLegendLayoutSpec baseLegendLayoutSpec203,204
+data LegendPropertyLegendProperty220,221
+    = LClipHeight LClipHeight221,222
+    | LColumnPadding LColumnPadding225,226
+    | LColumns LColumns229,230
+    | LCornerRadius LCornerRadius234,235
+    | LDirection LDirection238,239
+    | LFillColor LFillColor242,243
+    | LFormat LFormat246,247
+    | LFormatAsNumLFormatAsNum250,251
+    | LFormatAsTemporalLFormatAsTemporal256,257
+    | LGradientLength LGradientLength262,263
+    | LGradientOpacity LGradientOpacity266,267
+    | LGradientStrokeColor LGradientStrokeColor270,271
+    | LGradientStrokeWidth LGradientStrokeWidth274,275
+    | LGradientThickness LGradientThickness278,279
+    | LGridAlign LGridAlign282,283
+    | LLabelAlign LLabelAlign287,288
+    | LLabelBaseline LLabelBaseline289,290
+    | LLabelColor LLabelColor291,292
+    | LLabelFont LLabelFont293,294
+    | LLabelFontSize LLabelFontSize295,296
+    | LLabelFontStyle LLabelFontStyle297,298
+    | LLabelFontWeight LLabelFontWeight299,300
+    | LLabelLimit LLabelLimit301,302
+    | LLabelOffset LLabelOffset303,304
+    | LLabelOpacity LLabelOpacity305,306
+    | LLabelOverlap LLabelOverlap307,308
+    | LLabelPadding LLabelPadding309,310
+    | LLabelSeparation LLabelSeparation311,312
+    | LOffset LOffset313,314
+    | LOrient LOrient316,317
+    | LPadding LPadding318,319
+    | LRowPadding LRowPadding321,322
+    | LStrokeColor LStrokeColor325,326
+    | LSymbolDash LSymbolDash329,330
+    | LSymbolDashOffset LSymbolDashOffset334,335
+    | LSymbolFillColor LSymbolFillColor338,339
+    | LSymbolOffset LSymbolOffset342,343
+    | LSymbolOpacity LSymbolOpacity346,347
+    | LSymbolSize LSymbolSize350,351
+    | LSymbolStrokeColor LSymbolStrokeColor354,355
+    | LSymbolStrokeWidth LSymbolStrokeWidth358,359
+    | LSymbolType LSymbolType362,363
+    | LTickCount LTickCount364,365
+    | LTickMinStep LTickMinStep366,367
+    | LTitle LTitle371,372
+    | LNoTitleLNoTitle372,373
+    | LTitleAlign LTitleAlign376,377
+    | LTitleAnchor LTitleAnchor378,379
+    | LTitleBaseline LTitleBaseline380,381
+    | LTitleColor LTitleColor382,383
+    | LTitleFont LTitleFont384,385
+    | LTitleFontSize LTitleFontSize386,387
+    | LTitleFontStyle LTitleFontStyle388,389
+    | LTitleFontWeight LTitleFontWeight390,391
+    | LTitleLimit LTitleLimit392,393
+    | LTitleOpacity LTitleOpacity396,397
+    | LTitleOrient LTitleOrient400,401
+    | LTitlePadding LTitlePadding404,405
+    | LType LType408,409
+    | LValues LValues410,411
+    | LeX LeX412,413
+    | LeY LeY416,417
+    | LZIndex LZIndex420,421
+legendProperty legendProperty423,424
+legendProperty legendProperty424,425
+legendProp_ legendProp_495,496
+legendProp_ legendProp_496,497
+data LegendValuesLegendValues504,505
+    = LDateTimes LDateTimes505,506
+    | LNumbers LNumbers506,507
+    | LStrings LStrings507,508
+
+./src/Graphics/Vega/VegaLite.hs,59
+module Graphics.Vega.VegaLiteGraphics.Vega.VegaLite94,95
+
+./src/Graphics/Vega/Tutorials/VegaLite.hs,4116
+module Graphics.Vega.Tutorials.VegaLite Graphics.Vega.Tutorials.VegaLite22,23
+stripPlot stripPlot447,448
+stripPlot stripPlot448,449
+stripPlotWithBackground stripPlotWithBackground490,491
+stripPlotWithBackground stripPlotWithBackground491,492
+stripPlotY stripPlotY520,521
+stripPlotY stripPlotY521,522
+gaiaData gaiaData563,564
+gaiaData gaiaData564,565
+stripPlotWithColor stripPlotWithColor613,614
+stripPlotWithColor stripPlotWithColor614,615
+stripPlotWithColorOrdinal stripPlotWithColorOrdinal651,652
+stripPlotWithColorOrdinal stripPlotWithColorOrdinal652,653
+parallaxBreakdown parallaxBreakdown701,702
+parallaxBreakdown parallaxBreakdown702,703
+simpleHistogram simpleHistogram758,759
+simpleHistogram simpleHistogram759,760
+parallaxHistogram parallaxHistogram790,791
+parallaxHistogram parallaxHistogram791,792
+gmagHistogram gmagHistogram811,812
+gmagHistogram gmagHistogram812,813
+ylogHistogram ylogHistogram860,861
+ylogHistogram ylogHistogram861,862
+gmagHistogramWithColor gmagHistogramWithColor914,915
+gmagHistogramWithColor gmagHistogramWithColor915,916
+gmagLineWithColor gmagLineWithColor965,966
+gmagLineWithColor gmagLineWithColor966,967
+yHistogram yHistogram1022,1023
+yHistogram yHistogram1023,1024
+pointPlot pointPlot1120,1121
+pointPlot pointPlot1121,1122
+posPlot posPlot1202,1203
+posPlot posPlot1203,1204
+skyPlot skyPlot1306,1307
+skyPlot skyPlot1307,1308
+smallMultiples smallMultiples1378,1379
+smallMultiples smallMultiples1379,1380
+smallMultiples2 smallMultiples21441,1442
+smallMultiples2 smallMultiples21442,1443
+basePlot basePlot1508,1509
+basePlot basePlot1509,1510
+layeredPlot layeredPlot1557,1558
+layeredPlot layeredPlot1558,1559
+layeredDiversion layeredDiversion1619,1620
+layeredDiversion layeredDiversion1620,1621
+concatenatedPlot concatenatedPlot1674,1675
+concatenatedPlot concatenatedPlot1675,1676
+concatenatedPlot2 concatenatedPlot21727,1728
+concatenatedPlot2 concatenatedPlot21728,1729
+repeatPlot repeatPlot1790,1791
+repeatPlot repeatPlot1791,1792
+splomPlot splomPlot1849,1850
+splomPlot splomPlot1850,1851
+selectionProperties selectionProperties1971,1972
+selectionProperties selectionProperties1977,1978
+singleSelection singleSelection2041,2042
+singleSelection singleSelection2042,2043
+nearestSelection nearestSelection2077,2078
+nearestSelection nearestSelection2078,2079
+multiSelection multiSelection2106,2107
+multiSelection multiSelection2107,2108
+eventSelection eventSelection2141,2142
+eventSelection eventSelection2142,2143
+intervalSelection intervalSelection2170,2171
+intervalSelection intervalSelection2171,2172
+intervalSelectionY intervalSelectionY2204,2205
+intervalSelectionY intervalSelectionY2205,2206
+transformSelection transformSelection2250,2251
+transformSelection transformSelection2251,2252
+widgetSelection widgetSelection2321,2322
+widgetSelection widgetSelection2322,2323
+bindScales bindScales2363,2364
+bindScales bindScales2364,2365
+coordinatedViews coordinatedViews2433,2434
+coordinatedViews coordinatedViews2434,2435
+coordinatedViews2 coordinatedViews22512,2513
+coordinatedViews2 coordinatedViews22513,2514
+contextAndFocus contextAndFocus2594,2595
+contextAndFocus contextAndFocus2595,2596
+crossFilter crossFilter2685,2686
+crossFilter crossFilter2686,2687
+errorManual errorManual2783,2784
+errorManual errorManual2784,2785
+errorAuto errorAuto2847,2848
+errorAuto errorAuto2848,2849
+errorBars errorBars2920,2921
+errorBars errorBars2921,2922
+errorBand errorBand3010,3011
+errorBand errorBand3011,3012
+errorBox errorBox3084,3085
+errorBox errorBox3085,3086
+comparingErrors comparingErrors3151,3152
+comparingErrors comparingErrors3152,3153
+combinedPlot combinedPlot3406,3407
+combinedPlot combinedPlot3407,3408
+usGeoData usGeoData3617,3618
+usGeoData usGeoData3618,3619
+choroplethLookupToGeo choroplethLookupToGeo3620,3621
+choroplethLookupToGeo choroplethLookupToGeo3621,3622
+choroplethLookupFromGeo choroplethLookupFromGeo3644,3645
+choroplethLookupFromGeo choroplethLookupFromGeo3645,3646

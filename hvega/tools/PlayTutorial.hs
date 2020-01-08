@@ -129,6 +129,8 @@ vl = [ ("api-vl1", vl1)
      , ("errorbox", VL.errorBox)
      , ("comparingerrors", VL.comparingErrors)
      , ("combinedplot", VL.combinedPlot)
+     , ("choroplethLookupToGeo",VL.choroplethLookupToGeo)
+     , ("choroplethLookupFromGeo",VL.choroplethLookupFromGeo)
      ]
 
 
